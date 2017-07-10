@@ -1,0 +1,96 @@
+{
+  "bucket_data": {
+    "pages": {
+      "17d05b6ebe6b46f694ca80d809b8bfbe": {
+        "created": "1494027108485",
+        "id": "17d05b6ebe6b46f694ca80d809b8bfbe",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_90149531a8b10b19c9271bcfc4495504",
+              "component_ac22a26f172cdd04605595cb97afc8cb"
+            ],
+            "layout_type": "page_components"
+          },
+          "component_90149531a8b10b19c9271bcfc4495504": {
+            "type": "component",
+            "component": "details",
+            "id": "component_90149531a8b10b19c9271bcfc4495504",
+            "name": "component_90149531a8b10b19c9271bcfc4495504",
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "1vm5bwsl",
+              "include_actions": "1",
+              "id": "ad94abe557732cefd2fd2918de2c7ddc",
+              "component": "details",
+              "read_only": "false",
+              "new_record": "false",
+              "new_record_values": "[]",
+              "layout": {
+                "layout": {
+                  "version": 1,
+                  "layout": [
+                    {
+                      "type": "section",
+                      "colData": [
+                        {
+                          "column": 0
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "type": "slot",
+                            "name": "name"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "managed_by"
+                          }
+                        ]
+                      ],
+                      "guid": "66b3eedebb3eda6a545610544712f99a",
+                      "columns": 1
+                    }
+                  ],
+                  "pageData": { }
+                }
+              },
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "50%"
+          },
+          "component_ac22a26f172cdd04605595cb97afc8cb": {
+            "type": "component",
+            "component": "related",
+            "id": "component_ac22a26f172cdd04605595cb97afc8cb",
+            "name": "component_ac22a26f172cdd04605595cb97afc8cb",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "component": "related",
+              "related": [
+                {
+                  "label": "Facility Suite (facility)",
+                  "value": "p5c63gd9.facility"
+                }
+              ],
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "50%"
+          }
+        },
+        "name": "details.default.econ_facility",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

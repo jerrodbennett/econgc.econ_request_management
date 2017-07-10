@@ -1,0 +1,67 @@
+{
+  "bucket_data": {
+    "pages": {
+      "9ff31ddcef5c4f8492a76a73c6d90c9e": {
+        "created": "1494026495949",
+        "id": "9ff31ddcef5c4f8492a76a73c6d90c9e",
+        "layout": {
+          "component_abaf987077577370fe3e589705a45016": {
+            "type": "component",
+            "component": "navigator",
+            "id": "component_abaf987077577370fe3e589705a45016",
+            "name": "component_abaf987077577370fe3e589705a45016",
+            "page_loading": false,
+            "needs_subpage_target": true,
+            "attributes": {
+              "component": "navigator",
+              "button_width": 100,
+              "menu_icon": "",
+              "button_height": 60,
+              "name": "",
+              "navigator": "b58a109a88a1400db36b9d61893eaafd",
+              "event_name": "",
+              "id": "60bc4d1f5760201fb6318b5055e899b9",
+              "type": "menu",
+              "csstags": "",
+              "menu_width": 300
+            },
+            "w": "20%",
+            "h": "100%"
+          },
+          "component_e0a4f699e709912188161959e4fe00d9": {
+            "type": "component",
+            "component": "markup",
+            "id": "component_e0a4f699e709912188161959e4fe00d9",
+            "name": "component_e0a4f699e709912188161959e4fe00d9",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "component": "markup",
+              "html": "",
+              "id": "7c4f0777dbd6b96d16da9be7379767c2",
+              "type": "html",
+              "csstags": ""
+            },
+            "h": "100%",
+            "w": "80%"
+          },
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_abaf987077577370fe3e589705a45016",
+              "component_e0a4f699e709912188161959e4fe00d9"
+            ],
+            "layout_type": "page_components"
+          }
+        },
+        "name": "home",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

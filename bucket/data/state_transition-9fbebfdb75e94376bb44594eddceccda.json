@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "state_transition": {
+      "9fbebfdb75e94376bb44594eddceccda": {
+        "bucket": "jtkw97xr",
+        "created": "1494266970330",
+        "flow": "",
+        "id": "9fbebfdb75e94376bb44594eddceccda",
+        "label": {
+          "label": "Assignment & Scheduling",
+          "labelp": "Assignment & Scheduling"
+        },
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "state_from": "ef2da80e888645fcba833d9d66230a88",
+        "state_to": "c07226b40f4d40648764532fa67e5808",
+        "system_updated": "0"
+      }
+    }
+  }
+}

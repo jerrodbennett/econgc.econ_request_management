@@ -1,0 +1,49 @@
+{
+  "bucket_data": {
+    "pages": {
+      "4dda226345c74e3c945e0177014e26a6": {
+        "created": "1494027142791",
+        "id": "4dda226345c74e3c945e0177014e26a6",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_da2764129c41d30cfecaf18548b947ee"
+            ]
+          },
+          "component_da2764129c41d30cfecaf18548b947ee": {
+            "type": "component",
+            "component": "list",
+            "id": "component_da2764129c41d30cfecaf18548b947ee",
+            "name": "component_da2764129c41d30cfecaf18548b947ee",
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "company",
+              "columns": [
+                "name"
+              ],
+              "id": "96e9d8ef8cb7e2a786180f17afa852fe",
+              "component": "list",
+              "force_condition": "[]",
+              "inline_details": false,
+              "list_spacing": "",
+              "allow_sorting": "true",
+              "height_option": "",
+              "height": 300,
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "100%"
+          }
+        },
+        "name": "list.default.company",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

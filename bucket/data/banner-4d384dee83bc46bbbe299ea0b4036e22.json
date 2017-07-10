@@ -1,0 +1,16 @@
+{
+  "bucket_data": {
+    "banner": {
+      "4d384dee83bc46bbbe299ea0b4036e22": {
+        "created": "1494352576016",
+        "html": "separate_file://bucket/data/banner-4d384dee83bc46bbbe299ea0b4036e22-html.html",
+        "id": "4d384dee83bc46bbbe299ea0b4036e22",
+        "is_default": "0",
+        "name": "Econ light banner",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "bucket_data": {
+    "pages": {
+      "dbacc72771714edeba4ceadc95eb4b18": {
+        "created": "1495213853151",
+        "id": "dbacc72771714edeba4ceadc95eb4b18",
+        "layout": {
+          "component_3abe7906ad52ada9760f47312e479dc9": {
+            "type": "component",
+            "component": "list",
+            "id": "component_3abe7906ad52ada9760f47312e479dc9",
+            "name": "component_3abe7906ad52ada9760f47312e479dc9",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "component": "list",
+              "bucket": "1vm5bwsl",
+              "force_condition": "[]",
+              "inline_details": false,
+              "columns": [
+                "name",
+                "address",
+                "managed_by"
+              ],
+              "list_spacing": "",
+              "allow_sorting": "true",
+              "height_option": "",
+              "height": 300
+            },
+            "w": "100%",
+            "h": "100%"
+          },
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_3abe7906ad52ada9760f47312e479dc9"
+            ],
+            "layout_type": "page_components"
+          }
+        },
+        "name": "staff_view_facilities",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

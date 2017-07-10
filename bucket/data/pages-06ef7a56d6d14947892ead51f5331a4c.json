@@ -1,0 +1,96 @@
+{
+  "bucket_data": {
+    "pages": {
+      "06ef7a56d6d14947892ead51f5331a4c": {
+        "created": "1494027070970",
+        "id": "06ef7a56d6d14947892ead51f5331a4c",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_90149531a8b10b19c9271bcfc4495504",
+              "component_6ba535ff58431cb73767a049455bbc99"
+            ],
+            "layout_type": "page_components"
+          },
+          "component_90149531a8b10b19c9271bcfc4495504": {
+            "type": "component",
+            "component": "details",
+            "id": "component_90149531a8b10b19c9271bcfc4495504",
+            "name": "component_90149531a8b10b19c9271bcfc4495504",
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "p5c63gd9",
+              "include_actions": "1",
+              "id": "0baa0fd590729d7d5bbc6a6812ee4352",
+              "component": "details",
+              "read_only": "false",
+              "new_record": "false",
+              "new_record_values": "[]",
+              "layout": {
+                "layout": {
+                  "version": 1,
+                  "layout": [
+                    {
+                      "type": "section",
+                      "colData": [
+                        {
+                          "column": 0
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "type": "slot",
+                            "name": "name"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "facility"
+                          }
+                        ]
+                      ],
+                      "guid": "7ba3fef245682325d200650172f141be",
+                      "columns": 1
+                    }
+                  ],
+                  "pageData": { }
+                }
+              },
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "50%"
+          },
+          "component_6ba535ff58431cb73767a049455bbc99": {
+            "type": "component",
+            "component": "related",
+            "id": "component_6ba535ff58431cb73767a049455bbc99",
+            "name": "component_6ba535ff58431cb73767a049455bbc99",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "component": "related",
+              "related": [
+                {
+                  "label": "Company (suite)",
+                  "value": "company.suite"
+                }
+              ],
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "50%"
+          }
+        },
+        "name": "details.default.econ_suite",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

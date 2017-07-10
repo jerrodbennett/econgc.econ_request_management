@@ -1,0 +1,20 @@
+{
+  "bucket_data": {
+    "buckets": {
+      "jtkw97xr": {
+        "attributes": {
+          "collection": "gjbmjqhh"
+        },
+        "created": "1494025912935",
+        "id": "jtkw97xr",
+        "labels": {
+          "label": "Request",
+          "labelp": "Requests"
+        },
+        "name": "econ_request",
+        "system_updated": "0",
+        "type": "records"
+      }
+    }
+  }
+}

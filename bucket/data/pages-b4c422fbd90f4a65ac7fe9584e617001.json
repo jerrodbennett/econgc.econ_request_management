@@ -1,0 +1,56 @@
+{
+  "bucket_data": {
+    "pages": {
+      "b4c422fbd90f4a65ac7fe9584e617001": {
+        "created": "1495047670406",
+        "id": "b4c422fbd90f4a65ac7fe9584e617001",
+        "layout": {
+          "component_986edf9759414f080700cbcd0ab745ff": {
+            "type": "component",
+            "component": "list",
+            "id": "component_986edf9759414f080700cbcd0ab745ff",
+            "name": "component_986edf9759414f080700cbcd0ab745ff",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "component": "list",
+              "bucket": "jtkw97xr",
+              "force_condition": "[]",
+              "inline_details": false,
+              "columns": [
+                "number",
+                "state",
+                "requested_by",
+                "requested_for",
+                "facility",
+                "suite",
+                "tenant",
+                "service"
+              ],
+              "list_spacing": "",
+              "allow_sorting": "true",
+              "height_option": "",
+              "height": 300
+            },
+            "w": "100%",
+            "h": "100%"
+          },
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_986edf9759414f080700cbcd0ab745ff"
+            ],
+            "layout_type": "page_components"
+          }
+        },
+        "name": "property_manager_view_requests",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

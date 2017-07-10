@@ -1,0 +1,82 @@
+{
+  "bucket_data": {
+    "pages": {
+      "53458835863a44e8b36d3948a7e4b646": {
+        "created": "1494273907401",
+        "id": "53458835863a44e8b36d3948a7e4b646",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_90149531a8b10b19c9271bcfc4495504"
+            ]
+          },
+          "component_90149531a8b10b19c9271bcfc4495504": {
+            "type": "component",
+            "component": "details",
+            "id": "component_90149531a8b10b19c9271bcfc4495504",
+            "name": "component_90149531a8b10b19c9271bcfc4495504",
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "6ky21zly",
+              "new_record": "false",
+              "layout": {
+                "layout": {
+                  "version": 1,
+                  "layout": [
+                    {
+                      "type": "section",
+                      "colData": [
+                        {
+                          "column": 0
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "type": "slot",
+                            "name": "name"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "quantity"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "cost_per"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "total"
+                          }
+                        ]
+                      ],
+                      "guid": "6e9fd96fa893cccc620efd99783db2ed",
+                      "columns": 1
+                    }
+                  ],
+                  "pageData": { }
+                }
+              },
+              "component": "details",
+              "new_record_values": "[]",
+              "read_only": "false",
+              "include_actions": "1",
+              "id": "b23ccb814cee9bb10f0dc20f93a1741d",
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "100%"
+          }
+        },
+        "name": "details.default.econ_request_material",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "bucket_data": {
+    "pages": {
+      "36c12a0de61a4302936447508305f520": {
+        "created": "1494273620677",
+        "id": "36c12a0de61a4302936447508305f520",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_22afc6b7762c0593b7ad3bde9fec4fe0"
+            ]
+          },
+          "component_22afc6b7762c0593b7ad3bde9fec4fe0": {
+            "type": "component",
+            "component": "list",
+            "id": "component_22afc6b7762c0593b7ad3bde9fec4fe0",
+            "name": "component_22afc6b7762c0593b7ad3bde9fec4fe0",
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "6ky21zly",
+              "id": "9733faaa87b5ae4e645b79d8da71961e",
+              "component": "list",
+              "force_condition": "[]",
+              "inline_details": false,
+              "columns": [
+                "name",
+                "quantity",
+                "cost_per",
+                "total",
+                "request"
+              ],
+              "list_spacing": "",
+              "allow_sorting": "true",
+              "height_option": "",
+              "height": 300,
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "100%"
+          }
+        },
+        "name": "list.default.econ_request_material",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

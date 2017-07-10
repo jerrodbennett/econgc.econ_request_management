@@ -1,0 +1,54 @@
+<html>
+   <style>
+      div.bannerBar {
+         display: table;
+         width: 100%;
+         background-color: #fdfdfd;
+         padding: 4px 8px;
+         border-bottom: 1px solid #e9e9e9;
+         margin-bottom: 1px;
+      }
+
+      /* top header classes */
+      div.headerLogo {
+         display: table-cell;
+         text-align: left;
+      }
+
+      div.topActionContainer {
+         display: table-cell;
+         text-align: right;
+      }
+      
+      div.topBarUserMenuClass {
+			display: inline-block;
+			border-right: 1px solid var(--borderColor);
+			padding: 4px;
+      }
+      
+      div.topBarActionButtons {
+			display: inline-block;
+			padding: 4px;
+      }
+
+      div.topBarActionButtons .btn:first-child {
+         margin-left: 0px;
+      }
+
+      div.topBarActionButtons .btn {
+         margin-left: 2px;
+      }
+   </style>
+   
+	<div class="bannerBar">
+      <div class="headerLogo">
+         <a class="headerLogoImg" href="<%= data.system['f8.ui.default_page'] %>"><img
+            src="images/econlogo.jpg" height="44" /></a>
+      </div>
+         
+      <div class="topActionContainer">
+         <div class="topBarUserMenuClass"/>
+         <div class="topBarActionButtons"/>
+      </div>
+   </div>
+</html>

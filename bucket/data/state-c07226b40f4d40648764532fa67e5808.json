@@ -1,0 +1,20 @@
+{
+  "bucket_data": {
+    "state": {
+      "c07226b40f4d40648764532fa67e5808": {
+        "bucket": "jtkw97xr",
+        "configuration": "",
+        "created": "1494266689701",
+        "id": "c07226b40f4d40648764532fa67e5808",
+        "name": "Assignment & Scheduling",
+        "onenter": "",
+        "onenteronexit_events": "0",
+        "onexit": "",
+        "order": "200",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

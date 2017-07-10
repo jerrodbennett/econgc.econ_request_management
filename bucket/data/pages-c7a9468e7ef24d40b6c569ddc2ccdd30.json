@@ -1,0 +1,58 @@
+{
+  "bucket_data": {
+    "pages": {
+      "c7a9468e7ef24d40b6c569ddc2ccdd30": {
+        "created": "1494273685899",
+        "id": "c7a9468e7ef24d40b6c569ddc2ccdd30",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_22afc6b7762c0593b7ad3bde9fec4fe0"
+            ]
+          },
+          "component_22afc6b7762c0593b7ad3bde9fec4fe0": {
+            "type": "component",
+            "component": "list",
+            "id": "component_22afc6b7762c0593b7ad3bde9fec4fe0",
+            "name": "component_22afc6b7762c0593b7ad3bde9fec4fe0",
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "2p2pwvnj",
+              "force_condition": "[]",
+              "component": "list",
+              "allow_sorting": "true",
+              "inline_details": false,
+              "columns": [
+                "week_start",
+                "user",
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday",
+                "total"
+              ],
+              "height_option": "",
+              "id": "dc6055218952aac25add305e9a48fdc4",
+              "csstags": "",
+              "list_spacing": "",
+              "height": 300
+            },
+            "w": "100%",
+            "h": "100%"
+          }
+        },
+        "name": "list.record_to_econ_request.time_card",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

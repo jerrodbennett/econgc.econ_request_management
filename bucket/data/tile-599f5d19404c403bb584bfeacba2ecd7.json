@@ -1,0 +1,25 @@
+{
+  "bucket_data": {
+    "tile": {
+      "599f5d19404c403bb584bfeacba2ecd7": {
+        "active": "1",
+        "color": "#1D4E85",
+        "created": "1494026320369",
+        "description": "separate_file://bucket/data/tile-599f5d19404c403bb584bfeacba2ecd7-description.html",
+        "icon": "fontawesome:eye",
+        "id": "599f5d19404c403bb584bfeacba2ecd7",
+        "image": "",
+        "order": "100",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "script": "separate_file://bucket/data/tile-599f5d19404c403bb584bfeacba2ecd7-script.js",
+        "spaces": "2",
+        "subtitle": "separate_file://bucket/data/tile-599f5d19404c403bb584bfeacba2ecd7-subtitle.html",
+        "system_updated": "0",
+        "tile_group": "9e72ab3dc1fa4e67921cddc9d13bdc26",
+        "title": "separate_file://bucket/data/tile-599f5d19404c403bb584bfeacba2ecd7-title.html",
+        "url": "/#/dev.econ_request_management/tenant_view_requests"
+      }
+    }
+  }
+}

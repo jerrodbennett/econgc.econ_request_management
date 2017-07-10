@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "state_transition": {
+      "4e3371d6e2194170951e8c7cc8003ecb": {
+        "bucket": "jtkw97xr",
+        "created": "1494266991205",
+        "flow": "",
+        "id": "4e3371d6e2194170951e8c7cc8003ecb",
+        "label": {
+          "label": "Fulfillment",
+          "labelp": "Fulfillment"
+        },
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "state_from": "c07226b40f4d40648764532fa67e5808",
+        "state_to": "1938eec9bb0246989f5289ac3a0b6521",
+        "system_updated": "0"
+      }
+    }
+  }
+}

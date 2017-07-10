@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "slots": {
+      "jtkw97xr.number": {
+        "attributes": {
+          "prefix": "REQUEST"
+        },
+        "bucket": "jtkw97xr",
+        "created": "1441739103630",
+        "id": "jtkw97xr.number",
+        "labels": {
+          "label": "Number",
+          "labelp": "Number"
+        },
+        "name": "number",
+        "system_updated": "0",
+        "type": "number"
+      }
+    }
+  }
+}

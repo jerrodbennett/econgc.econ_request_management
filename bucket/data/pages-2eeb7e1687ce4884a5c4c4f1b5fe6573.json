@@ -1,0 +1,54 @@
+{
+  "bucket_data": {
+    "pages": {
+      "2eeb7e1687ce4884a5c4c4f1b5fe6573": {
+        "created": "1494359668055",
+        "id": "2eeb7e1687ce4884a5c4c4f1b5fe6573",
+        "layout": {
+          "component_789fb1beb50f4464ba30ec90cabd3a2f": {
+            "type": "component",
+            "component": "list",
+            "id": "component_789fb1beb50f4464ba30ec90cabd3a2f",
+            "name": "component_789fb1beb50f4464ba30ec90cabd3a2f",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "component": "list",
+              "bucket": "user",
+              "force_condition": "[]",
+              "inline_details": false,
+              "columns": [
+                "first_name",
+                "last_name",
+                "company",
+                "user_id",
+                "updated"
+              ],
+              "list_spacing": "",
+              "allow_sorting": "true",
+              "height_option": "",
+              "height": 300,
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "100%"
+          },
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_789fb1beb50f4464ba30ec90cabd3a2f"
+            ],
+            "layout_type": "page_components"
+          }
+        },
+        "name": "staff_view_users",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

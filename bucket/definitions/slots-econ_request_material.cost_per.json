@@ -1,0 +1,29 @@
+{
+  "bucket_data": {
+    "slots": {
+      "6ky21zly.cost_per": {
+        "attributes": {
+          "format": true,
+          "default": "0",
+          "less_validation": "0",
+          "less_value": "0",
+          "greater_validation": "0",
+          "greater_value": "0",
+          "range_validation": "0",
+          "range_min": "0",
+          "range_max": "0"
+        },
+        "bucket": "6ky21zly",
+        "created": "1494273583018",
+        "id": "6ky21zly.cost_per",
+        "labels": {
+          "label": "Cost per",
+          "labelp": "Cost pers"
+        },
+        "name": "cost_per",
+        "system_updated": "0",
+        "type": "price"
+      }
+    }
+  }
+}

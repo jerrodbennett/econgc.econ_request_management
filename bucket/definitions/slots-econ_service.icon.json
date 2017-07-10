@@ -1,0 +1,18 @@
+{
+  "bucket_data": {
+    "slots": {
+      "gg8qynq7.icon": {
+        "attributes": { },
+        "bucket": "gg8qynq7",
+        "id": "gg8qynq7.icon",
+        "labels": {
+          "label": "Icon",
+          "labelp": "Icons"
+        },
+        "name": "icon",
+        "system_updated": "0",
+        "type": "icon"
+      }
+    }
+  }
+}

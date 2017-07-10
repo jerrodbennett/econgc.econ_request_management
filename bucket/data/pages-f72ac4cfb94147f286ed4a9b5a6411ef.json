@@ -1,0 +1,59 @@
+{
+  "bucket_data": {
+    "pages": {
+      "f72ac4cfb94147f286ed4a9b5a6411ef": {
+        "created": "1494518393437",
+        "id": "f72ac4cfb94147f286ed4a9b5a6411ef",
+        "layout": {
+          "component_bbc48a15c3c4edeea25872cfbbf16400": {
+            "type": "component",
+            "component": "markup",
+            "id": "component_bbc48a15c3c4edeea25872cfbbf16400",
+            "name": "component_bbc48a15c3c4edeea25872cfbbf16400",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "component": "markup",
+              "type": "html",
+              "html": "<html>\n\t<form>\n\n\t\t<div class=\"group\">      \n\t\t\t<input type=\"text\" required>\n\t\t\t<span class=\"highlight\"></span>\n\t\t\t<span class=\"bar\"></span>\n\t\t\t<label>Name</label>\n\t\t</div>\n\n\t\t<div class=\"group\">      \n\t\t\t<input type=\"text\" required>\n\t\t\t<span class=\"highlight\"></span>\n\t\t\t<span class=\"bar\"></span>\n\t\t\t<label>Email</label>\n\t\t</div>\n\n\t</form>\n</html>\n\n<style>\n\n\t* { box-sizing:border-box; }\n\n/* basic stylings ------------------------------------------ */\nbody \t\t\t\t { background:url(http://scotch.io/wp-content/uploads/2014/07/61.jpg); }\n.container \t\t{ \n  font-family:'Roboto';\n  width:600px; \n  margin:30px auto 0; \n  display:block; \n  background:#FFF;\n  padding:10px 50px 50px;\n}\nh2 \t\t { \n  text-align:center; \n  margin-bottom:50px; \n}\nh2 small { \n  font-weight:normal; \n  color:#888; \n  display:block; \n}\n.footer \t{ text-align:center; }\n.footer a  { color:#53B2C8; }\n\n/* form starting stylings ------------------------------- */\n.group \t\t\t  { \n  position:relative; \n  margin-bottom:45px; \n}\ninput \t\t\t\t{\n  font-size:18px;\n  padding:10px 10px 10px 5px;\n  display:block;\n  width:300px;\n  border:none;\n  border-bottom:1px solid #757575;\n}\ninput:focus \t\t{ outline:none; }\n\n/* LABEL ======================================= */\nlabel \t\t\t\t {\n  color:#999; \n  font-size:18px;\n  font-weight:normal;\n  position:absolute;\n  pointer-events:none;\n  left:5px;\n  top:10px;\n  transition:0.2s ease all; \n  -moz-transition:0.2s ease all; \n  -webkit-transition:0.2s ease all;\n}\n\n/* active state */\ninput:focus ~ label, input:valid ~ label \t\t{\n  top:-20px;\n  font-size:14px;\n  color:#5264AE;\n}\n\n/* BOTTOM BARS ================================= */\n.bar \t{ position:relative; display:block; width:300px; }\n.bar:before, .bar:after \t{\n  content:'';\n  height:2px; \n  width:0;\n  bottom:1px; \n  position:absolute;\n  background:#5264AE; \n  transition:0.2s ease all; \n  -moz-transition:0.2s ease all; \n  -webkit-transition:0.2s ease all;\n}\n.bar:before {\n  left:50%;\n}\n.bar:after {\n  right:50%; \n}\n\n/* active state */\ninput:focus ~ .bar:before, input:focus ~ .bar:after {\n  width:50%;\n}\n\n/* HIGHLIGHTER ================================== */\n.highlight {\n  position:absolute;\n  height:60%; \n  width:100px; \n  top:25%; \n  left:0;\n  pointer-events:none;\n  opacity:0.5;\n}\n\n/* active state */\ninput:focus ~ .highlight {\n  -webkit-animation:inputHighlighter 0.3s ease;\n  -moz-animation:inputHighlighter 0.3s ease;\n  animation:inputHighlighter 0.3s ease;\n}\n\n/* ANIMATIONS ================ */\n@-webkit-keyframes inputHighlighter {\n\tfrom { background:#5264AE; }\n  to \t{ width:0; background:transparent; }\n}\n@-moz-keyframes inputHighlighter {\n\tfrom { background:#5264AE; }\n  to \t{ width:0; background:transparent; }\n}\n@keyframes inputHighlighter {\n\tfrom { background:#5264AE; }\n  to \t{ width:0; background:transparent; }\n}\n\n</style>",
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "50%"
+          },
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_3a7533bfef1f68b1c48c12038798db51",
+              "component_bbc48a15c3c4edeea25872cfbbf16400"
+            ],
+            "layout_type": "page_components"
+          },
+          "component_3a7533bfef1f68b1c48c12038798db51": {
+            "type": "component",
+            "component": "markup",
+            "id": "component_3a7533bfef1f68b1c48c12038798db51",
+            "name": "component_3a7533bfef1f68b1c48c12038798db51",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "component": "markup",
+              "type": "html",
+              "html": "<html>\n\t<img src=\"http://econconstructioninc.com/wp-content/uploads/2015/06/facilitybanner.jpg\" width=\"100%\" alt=\"Top Banner\">\n</html>",
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "50%"
+          }
+        },
+        "name": "staff_new_request",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

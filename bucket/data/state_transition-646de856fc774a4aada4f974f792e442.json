@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "state_transition": {
+      "646de856fc774a4aada4f974f792e442": {
+        "bucket": "jtkw97xr",
+        "created": "1494267027015",
+        "flow": "",
+        "id": "646de856fc774a4aada4f974f792e442",
+        "label": {
+          "label": "Completed",
+          "labelp": "Completed"
+        },
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "state_from": "af04ebd51b2c487aabb4a044b1e832d3",
+        "state_to": "10ceb5025a26480ea1eebb70512a4990",
+        "system_updated": "0"
+      }
+    }
+  }
+}

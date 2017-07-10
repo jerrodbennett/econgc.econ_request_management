@@ -1,0 +1,76 @@
+{
+  "bucket_data": {
+    "action_trigger": {
+      "11e19c41166c4b189e6f37e1ddf11efa": {
+        "active": "1",
+        "bucket": "jtkw97xr",
+        "condition": "[[[\"requested_for\",\"ne\",\"\"]]]",
+        "created": "1494269405510",
+        "description": "",
+        "flow": [
+          {
+            "data": { },
+            "output": { },
+            "type": "box",
+            "id": "start",
+            "text": "Start",
+            "left": 0,
+            "top": 0,
+            "width": 100,
+            "height": 40,
+            "stuck": true,
+            "routes": [
+              {
+                "text": "Always",
+                "order": 0,
+                "type": "always",
+                "to": "ff897b42ce446389787177989987d1e1"
+              }
+            ]
+          },
+          {
+            "data": {
+              "growl_type": "info",
+              "name": "Notification",
+              "send_email": true,
+              "to": "%{$record.requested_for}",
+              "subject": "%{$record.number} - Your Request has been Submitted",
+              "body_plain_text": "%{$record.number} has been submitted on your behalf\nService - %{$record.service.name}\nDescription - %{$record.description}\nLink: https://econgc.dreamtsoft.com/#/dev.econ_request_management/details.default.request?q=[\"id\",\"eq\",\"%{$record.id}\"]",
+              "body_html": "<table width=\"100%\" align=\"center\" bgcolor=\"#F2F2F4\">\n    <tr>\n        <td>\n            <!--[if (gte mso 9)|(IE)]>\n            <table width=\"650\" align=\"center\" border=\"0\" cellspacing=\"10\" cellpadding=\"0\"\n                bgcolor=\"#F2F2F4\">\n                <tr>\n                    <td><![endif]-->\n                        <table width=\"600px\" style=\"margin: 0 auto;\" class=\"content\" align=\"center\" border=\"0\" cellspacing=\"10\"\n                            cellpadding=\"0\" bgcolor=\"#F2F2F4\">\n                            <tr>\n                                <td>\n                                    <table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"3\" bgcolor=\"#396a87\">\n                                        <tr>\n                                            <td height=\"1\" style=\"font-size: 1px; line-height: 1px; mso-line-height-rule: exactly;\n                                            \">&nbsp;</td>\n                                        </tr>\n                                    </table>\n                                    <table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"10\" bgcolor=\"white\" style=\"border: 1px solid\n                                        #dadbdd; border-top: 0; padding-bottom: 10px\">\n                                        <tr bgcolor=\"#F7F9FB\" style=\"color: #333333; border-bottom: 1px solid #dadbdd\">\n                                            <td style=\"padding: 0 25px 15px 25px\">\n                                                <table style=\"table-layout: fixed; padding-bottom: 20px;\">\n                                                    <tr>\n                                                        <td>\n                                                            <img src=\"http://econconstructioninc.com/wp-content/uploads/2015/04/logoemail.jpg\" height=\"auto\"\n                                                            style=\"max-height:56px !important;\n                                                            vertical-align: top; padding-right:5px; padding-top:5px;\"\n                                                            alt=\"company_logo\"/>\n                                                        </td>\n                                                        <td style=\"font-size: 16pt; font-weight: bold; word-wrap: break-word;\">\n                                                            <p>Your Request has been Submitted &nbsp;</p>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <table style=\"width: 100%\">\n                                                    <tr>\n                                                        <td>\n                                                            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"\n                                                                style=\"padding-bottom:20px; padding-right: 15px;\">\n                                                                <tr>\n                                                                    <td style=\"border-right: 2px solid #dee6f2; margin-right: 0;\n                                                                        padding-right: 15px\" nowrap>\n                                                                        <p class=\"inv_headers\" style=\"font-size: 12px; color: #516d88;\n                                                                        margin: 0 0 5px 0\">NUMBER</p>\n                                                                        <p class=\"inv_val\" style=\"font-size: 18px; color: #434343; \n                                                                        margin: 0\"><a href='https://econgc.dreamtsoft.com/#/dev.econ_request_management/details.default.request?q=[\"id\",\"eq\",\"%{$record.id}\"]' style=\"text-decoration: none; color: #365ebf\">%{$record.number}</p>\n                                                                    </td>\n                                                                    <td style=\"border-right: 2px solid #dee6f2; margin-right: 0;\n                                                                        padding-right: 15px;padding-left: 15px\" nowrap>\n                                                                        <p  class=\"inv_headers\" style=\"font-size: 12px; color: #516d88;\n                                                                        margin: 0 0 5px 0;\">STATE</p>\n                                                                        <p class=\"inv_val\" style=\"font-size: 18px; color: #434343;\n                                                                        margin: 0\">%{$record.state.getDisplayValue()}</p>\n                                                                    </td>\n                                                                    <td style=\"padding-left: 15px\">\n                                                                        <p class=\"inv_headers\" style=\"font-size: 12px; color: #516d88;\n                                                                        margin: 0 0 3px 0;\">SUBMITTED BY</p>\n                                                                        <p class=\"inv_amt\" style=\"font-size: 18px; color: #434343;\n                                                                        margin: 0\">%{$record.requested_for.name}</p>\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td style=\"font-size:12px; padding: 20px 25px 50px 25px; color: #000000;\n                                                font-family:HelveticaNeueRoman,Helvetica,Arial,Verdana, sans-serif;\">\n                                                <p>Dear %{$record.requested_for.first_name},<BR><BR>Just a confirmation that your request (%{$record.number}) has been received and will be processed shortly. We thank you for your business, and understand that we'll do everything in our power to ensure we exceed your expectations. Just a heads up that you'll be notified from time to time with status updates as your request is processed, and that we may reach out to you directly if we need any additional information.<BR><BR>Service: %{$record.service.name}<BR>Tenant: %{$record.tenant.name}<BR>Facility: %{$record.facility.name}<BR>Suite: %{$record.suite.name}<BR><BR>Description: %{$record.description}<BR><BR>Thanks again for your business!<BR>Econ Construction, Inc.</p>\n                                            </td>\n                                        </tr>\n                                    </table>\n                                    <table border=\"0\" width=\"100%\">\n                                        <tr>\n                                            <td align=\"left\" style=\"padding: 15px 0 10px 0\">\n                                            </td>\n                                            <td width=\"100%\" align=\"right\" vertical-align=\"bottom\" style=\"font-size:10px; color: #888888; padding: 15px 0 10px 0\">\n                                                <p style=\"margin-bottom: 0\">&#169; Econ Construction, Inc. All rights reserved. &nbsp;<a\n                                                    href=\"mailto:platform2017@econconstructioninc.com?subject=%{$record.number}\" style=\"text-decoration: none; color: #365ebf\">Contact Us</a> | <a href=\"mailto:platform2017@econconstructioninc.com?subject=Please unsubscribe me\" style=\"text-decoration: none; color: #365ebf\">Unsubscribe</a></p>\n                                                </td>\n                                            </tr>\n                                        </table>\n                                    </td>\n                                </tr>\n                            </table>\n                            <!--[if (gte mso 9)|(IE)]>\n                        </td>\n                    </tr>\n                </table>\n                <![endif]-->\n            </td>\n        </tr>\n    </table>",
+              "email_account": "7ecf7017131b4ab49579d2df79ba673e",
+              "obj_name": "",
+              "obj_type": "send_notification"
+            },
+            "output": { },
+            "name": "send_notification",
+            "value": "send_notification",
+            "label": "Notification",
+            "type": "send_notification",
+            "text": "Notification",
+            "left": 176,
+            "top": 7,
+            "id": "ff897b42ce446389787177989987d1e1",
+            "width": 100,
+            "height": 40,
+            "routes": [
+              {
+                "text": "Always",
+                "condition": "success:eq:1:true",
+                "order": 0,
+                "type": "ok"
+              }
+            ]
+          }
+        ],
+        "id": "11e19c41166c4b189e6f37e1ddf11efa",
+        "name": "Request inserted notification",
+        "on": "insert",
+        "order": "0",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "system_updated": "0",
+        "when": "after"
+      }
+    }
+  }
+}

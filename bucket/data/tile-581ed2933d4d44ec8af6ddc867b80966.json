@@ -1,0 +1,25 @@
+{
+  "bucket_data": {
+    "tile": {
+      "581ed2933d4d44ec8af6ddc867b80966": {
+        "active": "1",
+        "color": "#1D4E85",
+        "created": "1494282422360",
+        "description": "separate_file://bucket/data/tile-581ed2933d4d44ec8af6ddc867b80966-description.html",
+        "icon": "fontawesome:eye",
+        "id": "581ed2933d4d44ec8af6ddc867b80966",
+        "image": "",
+        "order": "100",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "script": "separate_file://bucket/data/tile-581ed2933d4d44ec8af6ddc867b80966-script.js",
+        "spaces": "2",
+        "subtitle": "separate_file://bucket/data/tile-581ed2933d4d44ec8af6ddc867b80966-subtitle.html",
+        "system_updated": "0",
+        "tile_group": "4662df061ec04379aada7d4398debfc6",
+        "title": "separate_file://bucket/data/tile-581ed2933d4d44ec8af6ddc867b80966-title.html",
+        "url": "/#/dev.econ_request_management/property_manager_view_requests"
+      }
+    }
+  }
+}

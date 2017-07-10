@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "state_transition": {
+      "f5b93728ad0044a29431d9acb2d9cc34": {
+        "bucket": "jtkw97xr",
+        "created": "1494267016689",
+        "flow": "",
+        "id": "f5b93728ad0044a29431d9acb2d9cc34",
+        "label": {
+          "label": "Invoicing",
+          "labelp": "Invoicing"
+        },
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "state_from": "5442dbdc9f634eb5aa9ba64e18973b55",
+        "state_to": "af04ebd51b2c487aabb4a044b1e832d3",
+        "system_updated": "0"
+      }
+    }
+  }
+}

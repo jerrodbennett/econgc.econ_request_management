@@ -1,0 +1,22 @@
+{
+  "bucket_data": {
+    "state_transition": {
+      "e2c4136705ef491c9f2d865682eb2807": {
+        "bucket": "jtkw97xr",
+        "created": "1494266956923",
+        "flow": "",
+        "id": "e2c4136705ef491c9f2d865682eb2807",
+        "label": {
+          "label": "Submit for Approval",
+          "labelp": "Submit for Approval"
+        },
+        "name": "8424352b14a14bd7b8a38ae49a0c40f6 -> ef2da80e888645fcba833d9d66230a88",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "state_from": "8424352b14a14bd7b8a38ae49a0c40f6",
+        "state_to": "ef2da80e888645fcba833d9d66230a88",
+        "system_updated": "0"
+      }
+    }
+  }
+}

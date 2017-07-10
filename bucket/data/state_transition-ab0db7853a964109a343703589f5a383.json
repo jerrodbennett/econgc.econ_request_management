@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "state_transition": {
+      "ab0db7853a964109a343703589f5a383": {
+        "bucket": "jtkw97xr",
+        "created": "1494266970281",
+        "flow": "",
+        "id": "ab0db7853a964109a343703589f5a383",
+        "label": {
+          "label": "2nd proposal",
+          "labelp": "2nd proposal"
+        },
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "state_from": "ef2da80e888645fcba833d9d66230a88",
+        "state_to": "9fc2c99f916c495d9ca5f18c1a403605",
+        "system_updated": "0"
+      }
+    }
+  }
+}

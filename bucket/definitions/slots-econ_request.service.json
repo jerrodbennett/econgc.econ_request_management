@@ -1,0 +1,28 @@
+{
+  "bucket_data": {
+    "slots": {
+      "jtkw97xr.service": {
+        "attributes": {
+          "slot_types": "0",
+          "slots": "0",
+          "use_parent_bucket": "0",
+          "buckets": "0",
+          "bucket_name": "gg8qynq7",
+          "multiple": "0",
+          "none_option": true,
+          "hide_jumpto": "0",
+          "sort_choices": "0"
+        },
+        "bucket": "jtkw97xr",
+        "id": "jtkw97xr.service",
+        "labels": {
+          "label": "Service",
+          "labelp": "Services"
+        },
+        "name": "service",
+        "system_updated": "0",
+        "type": "choice"
+      }
+    }
+  }
+}

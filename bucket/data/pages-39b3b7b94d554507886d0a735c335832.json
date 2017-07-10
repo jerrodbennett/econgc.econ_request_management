@@ -1,0 +1,96 @@
+{
+  "bucket_data": {
+    "pages": {
+      "39b3b7b94d554507886d0a735c335832": {
+        "created": "1494027161541",
+        "id": "39b3b7b94d554507886d0a735c335832",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_51f6f78147300437c0e56b6ff8988ff4",
+              "component_76845613d9c99a33b57b619fb8020725"
+            ],
+            "layout_type": "page_components"
+          },
+          "component_51f6f78147300437c0e56b6ff8988ff4": {
+            "type": "component",
+            "component": "details",
+            "id": "component_51f6f78147300437c0e56b6ff8988ff4",
+            "name": "component_51f6f78147300437c0e56b6ff8988ff4",
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "company",
+              "layout": {
+                "layout": {
+                  "version": 1,
+                  "layout": [
+                    {
+                      "type": "section",
+                      "colData": [
+                        {
+                          "column": 0
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "type": "slot",
+                            "name": "name"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "suite"
+                          }
+                        ]
+                      ],
+                      "guid": "269656696691a2095a8609e3ebb9035c",
+                      "columns": 1
+                    }
+                  ],
+                  "pageData": { }
+                }
+              },
+              "new_record": "false",
+              "component": "details",
+              "new_record_values": "[]",
+              "read_only": "false",
+              "include_actions": "true",
+              "id": "a04202b5bb1ea23706c45a163221cccd",
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "50%"
+          },
+          "component_76845613d9c99a33b57b619fb8020725": {
+            "type": "component",
+            "component": "related",
+            "id": "component_76845613d9c99a33b57b619fb8020725",
+            "name": "component_76845613d9c99a33b57b619fb8020725",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "component": "related",
+              "related": [
+                {
+                  "label": "User (company)",
+                  "value": "user.company"
+                }
+              ],
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "50%"
+          }
+        },
+        "name": "details.default.company",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

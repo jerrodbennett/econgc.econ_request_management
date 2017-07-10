@@ -1,0 +1,50 @@
+{
+  "bucket_data": {
+    "pages": {
+      "73f1387dc3544315b302ad1166a3a9f7": {
+        "created": "1494359693878",
+        "id": "73f1387dc3544315b302ad1166a3a9f7",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_c893b533e9723fe98486037284f14e94"
+            ],
+            "layout_type": "page_components"
+          },
+          "component_c893b533e9723fe98486037284f14e94": {
+            "type": "component",
+            "component": "tiles",
+            "id": "component_c893b533e9723fe98486037284f14e94",
+            "name": "component_c893b533e9723fe98486037284f14e94",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "force_condition": "",
+              "tile_group": "af9d79f26daa4dee921175fb35cb5c55",
+              "inline_details": "0",
+              "csstags": "",
+              "bucket": "",
+              "component": "tiles",
+              "allow_sorting": "true",
+              "height_option": "",
+              "tiles_per_row": 5,
+              "id": "0921663ca106cc01cb1ca44106112ea7",
+              "list_spacing": "",
+              "height": 300
+            },
+            "w": "100%",
+            "h": "100%"
+          }
+        },
+        "name": "staff_view_services",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

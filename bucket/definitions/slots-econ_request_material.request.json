@@ -1,0 +1,23 @@
+{
+  "bucket_data": {
+    "slots": {
+      "6ky21zly.request": {
+        "attributes": {
+          "choice_type": "typeahead",
+          "bucket_name": "jtkw97xr"
+        },
+        "bucket": "6ky21zly",
+        "created": "1494273545265",
+        "labels": {
+          "label": "Request",
+          "labelp": "Requests"
+        },
+        "name": "request",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "system_updated": "0",
+        "type": "choice"
+      }
+    }
+  }
+}

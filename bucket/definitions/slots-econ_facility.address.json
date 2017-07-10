@@ -1,0 +1,20 @@
+{
+  "bucket_data": {
+    "slots": {
+      "1vm5bwsl.address": {
+        "attributes": { },
+        "bucket": "1vm5bwsl",
+        "created": "1494026758617",
+        "labels": {
+          "label": "Address",
+          "labelp": "Addresses"
+        },
+        "name": "address",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "system_updated": "0",
+        "type": "big_string"
+      }
+    }
+  }
+}

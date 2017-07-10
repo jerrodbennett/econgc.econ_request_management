@@ -1,0 +1,279 @@
+{
+  "bucket_data": {
+    "pages": {
+      "39b16bf864ab48aa8e6313a3ed1718b8": {
+        "created": "1495048666691",
+        "id": "39b16bf864ab48aa8e6313a3ed1718b8",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_e81e35739061daa92964b3cc978d0094",
+              "component_fd787d0363256bedcabce4000810055d"
+            ]
+          },
+          "component_e81e35739061daa92964b3cc978d0094": {
+            "type": "component",
+            "component": "details",
+            "id": "component_e81e35739061daa92964b3cc978d0094",
+            "name": "component_e81e35739061daa92964b3cc978d0094",
+            "needs_subpage_target": false,
+            "attributes": {
+              "layout": {
+                "layout": {
+                  "version": 1,
+                  "layout": [
+                    {
+                      "type": "section",
+                      "colData": [
+                        {
+                          "column": 0
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "type": "tabbed-section",
+                            "guid": "1231dd1200e01abc2a3290ac16e3c814",
+                            "tabs": [
+                              {
+                                "title": "User Info",
+                                "hidden": "[]",
+                                "layout": {
+                                  "version": 1,
+                                  "layout": [
+                                    {
+                                      "type": "section",
+                                      "colData": [
+                                        {
+                                          "column": 0
+                                        },
+                                        {
+                                          "column": 1
+                                        }
+                                      ],
+                                      "cols": [
+                                        [
+                                          {
+                                            "type": "slot",
+                                            "name": "first_name"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "middle_name"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "last_name"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "gender"
+                                          }
+                                        ],
+                                        [
+                                          {
+                                            "type": "slot",
+                                            "name": "manager"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "department"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "location"
+                                          }
+                                        ]
+                                      ],
+                                      "guid": "js8aor",
+                                      "columns": 2
+                                    }
+                                  ],
+                                  "pageData": { }
+                                }
+                              },
+                              {
+                                "hidden": "[]",
+                                "title": "Authenticaton",
+                                "layout": {
+                                  "version": 1,
+                                  "layout": [
+                                    {
+                                      "type": "section",
+                                      "colData": [
+                                        {
+                                          "column": 0
+                                        },
+                                        {
+                                          "column": 1
+                                        }
+                                      ],
+                                      "cols": [
+                                        [
+                                          {
+                                            "type": "slot",
+                                            "name": "auth_type"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "user_id"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "password"
+                                          }
+                                        ],
+                                        [
+                                          {
+                                            "type": "slot",
+                                            "name": "user_dn"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "ldap_directory"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "active"
+                                          }
+                                        ]
+                                      ],
+                                      "guid": "sa714i",
+                                      "columns": 2
+                                    }
+                                  ],
+                                  "pageData": { }
+                                }
+                              },
+                              {
+                                "hidden": "[]",
+                                "title": "Time Card Info",
+                                "layout": {
+                                  "version": 1,
+                                  "layout": [
+                                    {
+                                      "type": "section",
+                                      "colData": [
+                                        {
+                                          "column": 0
+                                        },
+                                        {
+                                          "column": 1
+                                        }
+                                      ],
+                                      "cols": [
+                                        [
+                                          {
+                                            "type": "slot",
+                                            "name": "hours_per_week"
+                                          }
+                                        ],
+                                        [
+                                          {
+                                            "type": "slot",
+                                            "name": "hourly_rate"
+                                          }
+                                        ]
+                                      ],
+                                      "guid": "uzfunx",
+                                      "columns": 2
+                                    }
+                                  ],
+                                  "pageData": { }
+                                }
+                              },
+                              {
+                                "hidden": "[]",
+                                "title": "Facility Info",
+                                "layout": {
+                                  "version": 1,
+                                  "layout": [
+                                    {
+                                      "type": "section",
+                                      "colData": [
+                                        {
+                                          "column": 0
+                                        }
+                                      ],
+                                      "cols": [
+                                        [
+                                          {
+                                            "type": "slot",
+                                            "name": "facility"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "suite"
+                                          },
+                                          {
+                                            "type": "slot",
+                                            "name": "company"
+                                          }
+                                        ]
+                                      ],
+                                      "guid": "9012d11aa6e0d4f6d35a595d93251791",
+                                      "columns": 1
+                                    }
+                                  ],
+                                  "pageData": { }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      ],
+                      "guid": "q93sor",
+                      "columns": 1
+                    }
+                  ],
+                  "pageData": { }
+                }
+              },
+              "bucket": "user",
+              "new_record": "false",
+              "component": "details",
+              "new_record_values": "[]",
+              "read_only": "false",
+              "include_actions": true,
+              "id": "68d413df493f5f91ed6f5901cbf84e6e",
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "50%"
+          },
+          "component_fd787d0363256bedcabce4000810055d": {
+            "type": "component",
+            "component": "related",
+            "id": "component_fd787d0363256bedcabce4000810055d",
+            "name": "component_fd787d0363256bedcabce4000810055d",
+            "needs_subpage_target": false,
+            "attributes": {
+              "related": [
+                {
+                  "label": "User groups (user_id)",
+                  "value": "user_to_group.user_id"
+                },
+                {
+                  "label": "Notification device (person)",
+                  "value": "notification_device.person"
+                }
+              ],
+              "id": "6b86ad550a7ca2d751b297796c88e323",
+              "component": "related"
+            },
+            "w": "100%",
+            "h": "50%"
+          }
+        },
+        "name": "details.default.user",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

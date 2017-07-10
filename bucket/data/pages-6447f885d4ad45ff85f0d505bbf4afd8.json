@@ -1,0 +1,60 @@
+{
+  "bucket_data": {
+    "pages": {
+      "6447f885d4ad45ff85f0d505bbf4afd8": {
+        "created": "1494359571304",
+        "id": "6447f885d4ad45ff85f0d505bbf4afd8",
+        "layout": {
+          "component_4cd96484c9496708a849061abbc8f9e8": {
+            "type": "component",
+            "component": "list",
+            "id": "component_4cd96484c9496708a849061abbc8f9e8",
+            "name": "component_4cd96484c9496708a849061abbc8f9e8",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "jtkw97xr",
+              "force_condition": "[]",
+              "component": "list",
+              "allow_sorting": "true",
+              "inline_details": false,
+              "columns": [
+                "number",
+                "state",
+                "service",
+                "requested_by",
+                "requested_for",
+                "facility",
+                "suite",
+                "tenant",
+                "assignment_group",
+                "assignment_user"
+              ],
+              "height_option": "",
+              "csstags": "",
+              "list_spacing": "",
+              "height": 300,
+              "id": "1c44df9bd18dd36aff5a59b2fb48099a"
+            },
+            "w": "100%",
+            "h": "100%"
+          },
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_4cd96484c9496708a849061abbc8f9e8"
+            ],
+            "layout_type": "page_components"
+          }
+        },
+        "name": "staff_view_requests",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

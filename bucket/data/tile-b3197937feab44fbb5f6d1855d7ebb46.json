@@ -1,0 +1,25 @@
+{
+  "bucket_data": {
+    "tile": {
+      "b3197937feab44fbb5f6d1855d7ebb46": {
+        "active": "1",
+        "color": "#1D4E85",
+        "created": "1494282413763",
+        "description": "separate_file://bucket/data/tile-b3197937feab44fbb5f6d1855d7ebb46-description.html",
+        "icon": "fontawesome:plus",
+        "id": "b3197937feab44fbb5f6d1855d7ebb46",
+        "image": "",
+        "order": "0",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "script": "separate_file://bucket/data/tile-b3197937feab44fbb5f6d1855d7ebb46-script.js",
+        "spaces": "2",
+        "subtitle": "separate_file://bucket/data/tile-b3197937feab44fbb5f6d1855d7ebb46-subtitle.html",
+        "system_updated": "0",
+        "tile_group": "4662df061ec04379aada7d4398debfc6",
+        "title": "separate_file://bucket/data/tile-b3197937feab44fbb5f6d1855d7ebb46-title.html",
+        "url": "#/dev.econ_request_management/details.default.econ_request?new=true&q=[]"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "navigator_item_list": {
+      "7ed3513f5f7f4b7194397894da6d027c": {
+        "bucket": "jtkw97xr",
+        "condition": "[]",
+        "created": "1494273079290",
+        "icon": "",
+        "id": "7ed3513f5f7f4b7194397894da6d027c",
+        "label": "All",
+        "order": "5",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "parent": "b58a109a88a1400db36b9d61893eaafd",
+        "schema_version": "0",
+        "sort_by": "",
+        "sort_direction": "ascending",
+        "system_updated": "0"
+      }
+    }
+  }
+}

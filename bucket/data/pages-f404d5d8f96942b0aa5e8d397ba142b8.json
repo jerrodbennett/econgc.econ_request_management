@@ -1,0 +1,55 @@
+{
+  "bucket_data": {
+    "pages": {
+      "f404d5d8f96942b0aa5e8d397ba142b8": {
+        "created": "1494282591273",
+        "id": "f404d5d8f96942b0aa5e8d397ba142b8",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_56a4a53247ef83fdf624662250ef47e5"
+            ],
+            "layout_type": "page_components"
+          },
+          "component_56a4a53247ef83fdf624662250ef47e5": {
+            "type": "component",
+            "component": "list",
+            "id": "component_56a4a53247ef83fdf624662250ef47e5",
+            "name": "component_56a4a53247ef83fdf624662250ef47e5",
+            "page_loading": false,
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "jtkw97xr",
+              "force_condition": "[[[\"state\",\"eq\",\"ef2da80e888645fcba833d9d66230a88\",\"PM Approval\"]]]",
+              "component": "list",
+              "allow_sorting": "true",
+              "inline_details": false,
+              "columns": [
+                "number",
+                "tenant",
+                "facility",
+                "suite",
+                "service"
+              ],
+              "height_option": "",
+              "id": "590196a2b4c578ea8b436e9ae977d21f",
+              "csstags": "",
+              "list_spacing": "",
+              "height": 300
+            },
+            "w": "100%",
+            "h": "100%"
+          }
+        },
+        "name": "property_manager_view_approvals",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

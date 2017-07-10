@@ -1,0 +1,20 @@
+{
+  "bucket_data": {
+    "state": {
+      "af04ebd51b2c487aabb4a044b1e832d3": {
+        "bucket": "jtkw97xr",
+        "configuration": "",
+        "created": "1494266919229",
+        "id": "af04ebd51b2c487aabb4a044b1e832d3",
+        "name": "Invoicing",
+        "onenter": "",
+        "onenteronexit_events": "0",
+        "onexit": "",
+        "order": "500",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

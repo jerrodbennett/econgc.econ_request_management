@@ -1,0 +1,127 @@
+{
+  "bucket_data": {
+    "pages": {
+      "e4dc2ef526bf49e793b5b3f84922505f": {
+        "created": "1494274425617",
+        "id": "e4dc2ef526bf49e793b5b3f84922505f",
+        "layout": {
+          "__start__": {
+            "type": "container",
+            "w": "100%",
+            "h": "100%",
+            "contains": [
+              "component_90149531a8b10b19c9271bcfc4495504"
+            ]
+          },
+          "component_90149531a8b10b19c9271bcfc4495504": {
+            "type": "component",
+            "component": "details",
+            "id": "component_90149531a8b10b19c9271bcfc4495504",
+            "name": "component_90149531a8b10b19c9271bcfc4495504",
+            "needs_subpage_target": false,
+            "attributes": {
+              "bucket": "2p2pwvnj",
+              "include_actions": "1",
+              "id": "3413431f0495d0c7a1c2f44283b6ea94",
+              "component": "details",
+              "read_only": "false",
+              "new_record": "false",
+              "new_record_values": "[]",
+              "layout": {
+                "layout": {
+                  "version": 1,
+                  "layout": [
+                    {
+                      "type": "section",
+                      "colData": [
+                        {
+                          "column": 0
+                        },
+                        {
+                          "column": 1
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "type": "slot",
+                            "name": "number"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "week_start"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "user"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "type"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "bucket"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "record"
+                          }
+                        ],
+                        [
+                          {
+                            "type": "slot",
+                            "name": "sunday"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "monday"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "tuesday"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "wednesday"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "thursday"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "friday"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "saturday"
+                          },
+                          {
+                            "type": "slot",
+                            "name": "total"
+                          }
+                        ]
+                      ],
+                      "guid": "dp1q7q",
+                      "columns": 2
+                    }
+                  ],
+                  "pageData": { }
+                }
+              },
+              "csstags": ""
+            },
+            "w": "100%",
+            "h": "100%"
+          }
+        },
+        "name": "details.default.time_card",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "public": "0",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

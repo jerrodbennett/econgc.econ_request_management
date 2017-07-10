@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "navigator_item_list": {
+      "256de2db3e1a45c0ae4d9bb5d18ee356": {
+        "bucket": "p5c63gd9",
+        "condition": "[]",
+        "created": "1494026993725",
+        "icon": "",
+        "id": "256de2db3e1a45c0ae4d9bb5d18ee356",
+        "label": "Suites",
+        "order": "8",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "parent": "b58a109a88a1400db36b9d61893eaafd",
+        "schema_version": "0",
+        "sort_by": "",
+        "sort_direction": "ascending",
+        "system_updated": "0"
+      }
+    }
+  }
+}

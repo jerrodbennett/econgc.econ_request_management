@@ -1,0 +1,21 @@
+{
+   "bundle_name": "econ_request_management",
+   "dependencies": [
+      {
+         "id": "ds.base",
+         "version": "0.1.0"
+      }
+   ],
+   "icon": "fontawesome:shopping-cart",
+   "icon_color": "#1D4E85",
+   "id": "dev.econ_request_management",
+   "page_banner": "4d384dee83bc46bbbe299ea0b4036e22",
+   "parametrics_form": "",
+   "platform_version": "",
+   "schema_version": "0",
+   "shell_layout": "",
+   "theme": "",
+   "title": "Request Management",
+   "vendor": "dev",
+   "version": "0.1.0"
+}

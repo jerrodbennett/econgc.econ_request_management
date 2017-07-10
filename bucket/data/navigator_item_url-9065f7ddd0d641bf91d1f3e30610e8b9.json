@@ -1,0 +1,18 @@
+{
+  "bucket_data": {
+    "navigator_item_url": {
+      "9065f7ddd0d641bf91d1f3e30610e8b9": {
+        "created": "1494358750382",
+        "icon": "",
+        "id": "9065f7ddd0d641bf91d1f3e30610e8b9",
+        "label": "Staff",
+        "order": "3",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "parent": "b58a109a88a1400db36b9d61893eaafd",
+        "schema_version": "0",
+        "system_updated": "0",
+        "url": "/#/dev.econ_request_management/staff_request_home"
+      }
+    }
+  }
+}

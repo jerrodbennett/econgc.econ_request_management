@@ -1,0 +1,18 @@
+{
+  "bucket_data": {
+    "navigator_item_seperator": {
+      "f5729079dfdd46be9ccb129953a8b818": {
+        "collapsible": "",
+        "created": "1494026495886",
+        "icon": "",
+        "id": "f5729079dfdd46be9ccb129953a8b818",
+        "label": "Landing Pages",
+        "order": "0",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "parent": "b58a109a88a1400db36b9d61893eaafd",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

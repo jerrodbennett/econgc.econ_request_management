@@ -1,0 +1,25 @@
+{
+  "bucket_data": {
+    "tile": {
+      "6ee317de861c4f12a8990a6ac5e2ef41": {
+        "active": "1",
+        "color": "#597CA4",
+        "created": "1494358984789",
+        "description": "separate_file://bucket/data/tile-6ee317de861c4f12a8990a6ac5e2ef41-description.html",
+        "icon": "fontawesome:building",
+        "id": "6ee317de861c4f12a8990a6ac5e2ef41",
+        "image": "",
+        "order": "400",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "script": "separate_file://bucket/data/tile-6ee317de861c4f12a8990a6ac5e2ef41-script.js",
+        "spaces": "2",
+        "subtitle": "separate_file://bucket/data/tile-6ee317de861c4f12a8990a6ac5e2ef41-subtitle.html",
+        "system_updated": "0",
+        "tile_group": "8c6977e262a4446fa30ccbd01abec51c",
+        "title": "separate_file://bucket/data/tile-6ee317de861c4f12a8990a6ac5e2ef41-title.html",
+        "url": "/#/dev.econ_request_management/staff_view_facilities"
+      }
+    }
+  }
+}

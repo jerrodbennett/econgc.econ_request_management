@@ -1,0 +1,20 @@
+{
+  "bucket_data": {
+    "state": {
+      "1938eec9bb0246989f5289ac3a0b6521": {
+        "bucket": "jtkw97xr",
+        "configuration": "",
+        "created": "1494266901857",
+        "id": "1938eec9bb0246989f5289ac3a0b6521",
+        "name": "Fulfillment",
+        "onenter": "",
+        "onenteronexit_events": "0",
+        "onexit": "",
+        "order": "300",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "system_updated": "0"
+      }
+    }
+  }
+}

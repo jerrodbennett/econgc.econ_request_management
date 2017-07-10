@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "navigator_item_list": {
+      "4c2256723de442b18001e3feba2d2750": {
+        "bucket": "gg8qynq7",
+        "condition": "[]",
+        "created": "1494272852270",
+        "icon": "",
+        "id": "4c2256723de442b18001e3feba2d2750",
+        "label": "Services",
+        "order": "11",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "parent": "b58a109a88a1400db36b9d61893eaafd",
+        "schema_version": "0",
+        "sort_by": "",
+        "sort_direction": "ascending",
+        "system_updated": "0"
+      }
+    }
+  }
+}

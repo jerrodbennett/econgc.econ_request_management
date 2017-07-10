@@ -1,0 +1,28 @@
+{
+  "bucket_data": {
+    "slots": {
+      "p5c63gd9.facility": {
+        "attributes": {
+          "slot_types": "0",
+          "slots": "0",
+          "use_parent_bucket": "0",
+          "buckets": "0",
+          "bucket_name": "1vm5bwsl",
+          "multiple": "0",
+          "none_option": true,
+          "hide_jumpto": "0",
+          "sort_choices": "0"
+        },
+        "bucket": "p5c63gd9",
+        "id": "p5c63gd9.facility",
+        "labels": {
+          "label": "Facility",
+          "labelp": "Facilities"
+        },
+        "name": "facility",
+        "system_updated": "0",
+        "type": "choice"
+      }
+    }
+  }
+}

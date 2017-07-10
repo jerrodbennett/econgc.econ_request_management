@@ -1,0 +1,76 @@
+{
+  "bucket_data": {
+    "action_trigger": {
+      "ae786cc4650b4309a30dccba521df4fd": {
+        "active": "1",
+        "bucket": "6ky21zly",
+        "condition": "[[[\"quantity\",\"eq\",\"custom://changed\",\"being changed\"]],\"OR\",[[\"cost_per\",\"eq\",\"custom://changed\",\"being changed\"]]]",
+        "created": "1494276008405",
+        "description": "",
+        "flow": [
+          {
+            "data": { },
+            "output": { },
+            "type": "box",
+            "id": "start",
+            "text": "Start",
+            "left": 0,
+            "top": 0,
+            "width": 100,
+            "height": 40,
+            "stuck": true,
+            "routes": [
+              {
+                "text": "Always",
+                "order": 0,
+                "type": "always",
+                "to": "1543c6cc1943f27529ca946fde25f958"
+              }
+            ]
+          },
+          {
+            "data": {
+              "name": "Run Script",
+              "script": "calculateMaterialsCosts();\n\nfunction calculateMaterialsCosts() {\n\t$record.total = $record.cost_per * $record.quantity;\n}",
+              "obj_name": "",
+              "obj_type": "script"
+            },
+            "output": { },
+            "name": "script",
+            "value": "script",
+            "label": "Run Script",
+            "type": "script",
+            "text": "Run Script",
+            "left": 166,
+            "top": -3,
+            "id": "1543c6cc1943f27529ca946fde25f958",
+            "width": 100,
+            "height": 40,
+            "routes": [
+              {
+                "text": "Success",
+                "condition": "success:eq:1:true",
+                "order": 0,
+                "type": "success"
+              },
+              {
+                "text": "Failure",
+                "condition": "success:eq:0:false",
+                "order": 1,
+                "type": "error"
+              }
+            ]
+          }
+        ],
+        "id": "ae786cc4650b4309a30dccba521df4fd",
+        "name": "Calculate materials costs",
+        "on": "insert||update",
+        "order": "0",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "schema_version": "0",
+        "system_updated": "0",
+        "when": "before"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "bucket_data": {
+    "navigator_item_list": {
+      "6d8a694541484105a460c4b1ef0b8bb1": {
+        "bucket": "company",
+        "condition": "[]",
+        "created": "1494026993746",
+        "icon": "",
+        "id": "6d8a694541484105a460c4b1ef0b8bb1",
+        "label": "Tenants",
+        "order": "9",
+        "owner": "1066af59a57445b3bd5e68678f993f2a",
+        "parent": "b58a109a88a1400db36b9d61893eaafd",
+        "schema_version": "0",
+        "sort_by": "",
+        "sort_direction": "ascending",
+        "system_updated": "0"
+      }
+    }
+  }
+}
