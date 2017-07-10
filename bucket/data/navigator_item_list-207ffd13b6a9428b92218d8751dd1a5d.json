@@ -1,15 +1,15 @@
 {
   "bucket_data" : {
     "navigator_item_list" : {
-      "6d8a694541484105a460c4b1ef0b8bb1" : {
+      "207ffd13b6a9428b92218d8751dd1a5d" : {
         "bucket" : "company",
         "condition" : "[]",
-        "created" : "1494026993746",
+        "created" : "1499700654506",
         "icon" : "",
-        "id" : "6d8a694541484105a460c4b1ef0b8bb1",
-        "label" : "Tenants",
-        "order" : "9",
-        "owner" : "1066af59a57445b3bd5e68678f993f2a",
+        "id" : "207ffd13b6a9428b92218d8751dd1a5d",
+        "label" : "Property Managers",
+        "order" : "12",
+        "owner" : "d17aaae2d94e47008023e9bdf50e30b2",
         "parent" : "b58a109a88a1400db36b9d61893eaafd",
         "schema_version" : "0",
         "sort_by" : "",

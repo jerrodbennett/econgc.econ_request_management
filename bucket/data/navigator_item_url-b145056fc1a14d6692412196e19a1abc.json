@@ -1,17 +1,17 @@
 {
-  "bucket_data": {
-    "navigator_item_url": {
-      "b145056fc1a14d6692412196e19a1abc": {
-        "created": "1494026557679",
-        "icon": "",
-        "id": "b145056fc1a14d6692412196e19a1abc",
-        "label": "Property Manager",
-        "order": "2",
-        "owner": "1066af59a57445b3bd5e68678f993f2a",
-        "parent": "b58a109a88a1400db36b9d61893eaafd",
-        "schema_version": "0",
-        "system_updated": "0",
-        "url": "/#/dev.econ_request_management/property_manager_request_home"
+  "bucket_data" : {
+    "navigator_item_url" : {
+      "b145056fc1a14d6692412196e19a1abc" : {
+        "created" : "1494026557679",
+        "icon" : "",
+        "id" : "b145056fc1a14d6692412196e19a1abc",
+        "label" : "Property Manager",
+        "order" : "2",
+        "owner" : "1066af59a57445b3bd5e68678f993f2a",
+        "parent" : "b58a109a88a1400db36b9d61893eaafd",
+        "schema_version" : "0",
+        "system_updated" : "0",
+        "url" : "/#/dev.econ_request_management/property_manager_request_home"
       }
     }
   }

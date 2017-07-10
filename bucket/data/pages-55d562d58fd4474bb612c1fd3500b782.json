@@ -1,51 +1,50 @@
 {
   "bucket_data" : {
     "pages" : {
-      "f404d5d8f96942b0aa5e8d397ba142b8" : {
-        "created" : "1494282591273",
-        "id" : "f404d5d8f96942b0aa5e8d397ba142b8",
+      "55d562d58fd4474bb612c1fd3500b782" : {
+        "created" : "1499701650971",
+        "id" : "55d562d58fd4474bb612c1fd3500b782",
         "layout" : {
           "__start__" : {
             "type" : "container",
             "w" : "100%",
             "h" : "100%",
             "contains" : [
-              "component_56a4a53247ef83fdf624662250ef47e5"
+              "component_f4d30df6f2b28ddcc218504198b676f6"
             ],
             "layout_type" : "page_components"
           },
-          "component_56a4a53247ef83fdf624662250ef47e5" : {
+          "component_f4d30df6f2b28ddcc218504198b676f6" : {
             "type" : "component",
             "component" : "list",
-            "id" : "component_56a4a53247ef83fdf624662250ef47e5",
-            "name" : "component_56a4a53247ef83fdf624662250ef47e5",
+            "id" : "component_f4d30df6f2b28ddcc218504198b676f6",
+            "name" : "component_f4d30df6f2b28ddcc218504198b676f6",
             "page_loading" : false,
             "needs_subpage_target" : false,
             "attributes" : {
+              "component" : "list",
               "bucket" : "jtkw97xr",
               "force_condition" : "[[[\"state\",\"eq\",\"ef2da80e888645fcba833d9d66230a88\",\"PM Approval\"],[\"meta_datatag\",\"contains\",\"custom://f8032f7055f6492bb9f9c2b542dbc9f5\",\"the current user\"]]]",
-              "component" : "list",
-              "allow_sorting" : "true",
               "inline_details" : false,
               "columns" : [
                 "number",
-                "tenant",
+                "requested_by",
+                "requested_for",
+                "service",
                 "facility",
-                "suite",
-                "service"
+                "tenant"
               ],
-              "height_option" : "",
-              "id" : "590196a2b4c578ea8b436e9ae977d21f",
-              "csstags" : "",
               "list_spacing" : "",
+              "allow_sorting" : "true",
+              "height_option" : "",
               "height" : 300
             },
             "w" : "100%",
             "h" : "100%"
           }
         },
-        "name" : "property_manager_view_approvals",
-        "owner" : "1066af59a57445b3bd5e68678f993f2a",
+        "name" : "staff_view_approvals",
+        "owner" : "d17aaae2d94e47008023e9bdf50e30b2",
         "public" : "0",
         "schema_version" : "0",
         "system_updated" : "0"
