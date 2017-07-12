@@ -18,7 +18,7 @@
         "system_updated" : "0",
         "tile_group" : "8c6977e262a4446fa30ccbd01abec51c",
         "title" : "separate_file://bucket/data/tile-913155a0fb534eb491d3115d975d0ec5-title.html",
-        "url" : "#/dev.econ_request_management/staff_view_approvals"
+        "url" : "#/dev.econ_request_management/list.default.econ_request?q=[[[\"approval:parent.meta_datatag\",\"contains\",\"custom://f8032f7055f6492bb9f9c2b542dbc9f5\",\"the current user\"]]]"
       }
     }
   }

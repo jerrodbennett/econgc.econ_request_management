@@ -1,252 +1,298 @@
 {
-  "bucket_data": {
-    "pages": {
-      "944b195823d34d4d8da86b19c0e74cb3": {
-        "created": "1494026711677",
-        "id": "944b195823d34d4d8da86b19c0e74cb3",
-        "layout": {
-          "component_f4e358713f2a25e79045ada2041e8d5d": {
-            "type": "component",
-            "component": "markup",
-            "id": "component_f4e358713f2a25e79045ada2041e8d5d",
-            "name": "component_f4e358713f2a25e79045ada2041e8d5d",
-            "page_loading": false,
-            "needs_subpage_target": false,
-            "attributes": {
-              "component": "markup",
-              "type": "html",
-              "html": "<html>\n\t<img src=\"https://www.hydreco.com/files/styles/top_banner_image/public/construction-top-banner-100.jpg\" width=\"100%\" alt=\"Top Banner\">\n</html>",
-              "markdown": "",
-              "csstags": ""
+  "bucket_data" : {
+    "pages" : {
+      "944b195823d34d4d8da86b19c0e74cb3" : {
+        "created" : "1494026711677",
+        "id" : "944b195823d34d4d8da86b19c0e74cb3",
+        "layout" : {
+          "component_f4e358713f2a25e79045ada2041e8d5d" : {
+            "type" : "component",
+            "component" : "markup",
+            "id" : "component_f4e358713f2a25e79045ada2041e8d5d",
+            "name" : "component_f4e358713f2a25e79045ada2041e8d5d",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "component" : "markup",
+              "type" : "html",
+              "html" : "<html>\n\t<img src=\"https://www.hydreco.com/files/styles/top_banner_image/public/construction-top-banner-100.jpg\" width=\"100%\" alt=\"Top Banner\">\n</html>",
+              "markdown" : "",
+              "csstags" : ""
             },
-            "w": "100%",
-            "h": "20%"
+            "w" : "100%",
+            "h" : "20%"
           },
-          "component_0ac32ca3b1add48e202b1af2af82f912": {
-            "type": "component",
-            "component": "speaks",
-            "id": "component_0ac32ca3b1add48e202b1af2af82f912",
-            "name": "component_0ac32ca3b1add48e202b1af2af82f912",
-            "page_loading": false,
-            "needs_subpage_target": false,
-            "attributes": {
-              "component": "speaks",
-              "source": "document",
-              "bucket": ""
+          "component_0ac32ca3b1add48e202b1af2af82f912" : {
+            "type" : "component",
+            "component" : "speaks",
+            "id" : "component_0ac32ca3b1add48e202b1af2af82f912",
+            "name" : "component_0ac32ca3b1add48e202b1af2af82f912",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "component" : "speaks",
+              "source" : "document",
+              "bucket" : ""
             },
-            "w": "30%",
-            "h": "100%"
+            "w" : "34%",
+            "h" : "100%"
           },
-          "__start__": {
-            "type": "container",
-            "w": "100%",
-            "h": "100%",
-            "contains": [
+          "__start__" : {
+            "type" : "container",
+            "w" : "100%",
+            "h" : "100%",
+            "contains" : [
               "component_f4e358713f2a25e79045ada2041e8d5d",
               "component_90149531a8b10b19c9271bcfc4495504",
               "container_c9f23c450d74f4cfbec69a7bff128fbb"
             ],
-            "layout_type": "page_components"
+            "layout_type" : "page_components"
           },
-          "component_90149531a8b10b19c9271bcfc4495504": {
-            "type": "component",
-            "component": "details",
-            "id": "component_90149531a8b10b19c9271bcfc4495504",
-            "name": "component_90149531a8b10b19c9271bcfc4495504",
-            "needs_subpage_target": false,
-            "attributes": {
-              "bucket": "jtkw97xr",
-              "new_record": "false",
-              "layout": {
-                "layout": {
-                  "version": 1,
-                  "layout": [
+          "component_90149531a8b10b19c9271bcfc4495504" : {
+            "type" : "component",
+            "component" : "details",
+            "id" : "component_90149531a8b10b19c9271bcfc4495504",
+            "name" : "component_90149531a8b10b19c9271bcfc4495504",
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "bucket" : "jtkw97xr",
+              "new_record" : "false",
+              "layout" : {
+                "layout" : {
+                  "version" : 1,
+                  "layout" : [
                     {
-                      "type": "section",
-                      "colData": [
+                      "type" : "section",
+                      "colData" : [
                         {
-                          "column": 0,
-                          "title": "General",
-                          "templateClass": ""
+                          "column" : 0,
+                          "title" : "General",
+                          "templateClass" : ""
                         },
                         {
-                          "column": 1,
-                          "title": "Status",
-                          "templateClass": ""
+                          "column" : 1,
+                          "title" : "Status",
+                          "templateClass" : ""
                         }
                       ],
-                      "cols": [
+                      "cols" : [
                         [
                           {
-                            "type": "slot",
-                            "name": "number"
+                            "type" : "slot",
+                            "name" : "number"
                           },
                           {
-                            "type": "slot",
-                            "name": "requested_by"
+                            "type" : "slot",
+                            "name" : "requested_by"
                           },
                           {
-                            "type": "slot",
-                            "name": "requested_for"
+                            "type" : "slot",
+                            "name" : "requested_for"
                           },
                           {
-                            "type": "slot",
-                            "name": "created"
+                            "type" : "slot",
+                            "name" : "priority"
                           }
                         ],
                         [
                           {
-                            "type": "slot",
-                            "name": "state"
+                            "type" : "slot",
+                            "name" : "state"
                           },
                           {
-                            "type": "slot",
-                            "name": "facility"
+                            "type" : "slot",
+                            "name" : "facility"
                           },
                           {
-                            "type": "slot",
-                            "name": "suite"
+                            "type" : "slot",
+                            "name" : "suite"
                           },
                           {
-                            "type": "slot",
-                            "name": "tenant"
+                            "type" : "slot",
+                            "name" : "tenant"
                           }
                         ]
                       ],
-                      "guid": "wl94ep",
-                      "columns": 2
+                      "guid" : "wl94ep",
+                      "columns" : 2
                     },
                     {
-                      "type": "section",
-                      "colData": [
+                      "type" : "section",
+                      "colData" : [
                         {
-                          "title": "Costs",
-                          "column": 0,
-                          "templateClass": ""
+                          "title" : "Costs",
+                          "column" : 0,
+                          "templateClass" : ""
                         },
                         {
-                          "title": "Schedule",
-                          "column": 1,
-                          "templateClass": ""
+                          "title" : "Schedule",
+                          "column" : 1,
+                          "templateClass" : ""
                         }
                       ],
-                      "cols": [
+                      "cols" : [
                         [
                           {
-                            "type": "slot",
-                            "name": "planned_cost"
+                            "type" : "slot",
+                            "name" : "planned_cost"
                           },
                           {
-                            "type": "slot",
-                            "name": "actual_cost"
+                            "type" : "slot",
+                            "name" : "actual_cost"
                           }
                         ],
                         [
                           {
-                            "type": "slot",
-                            "name": "planned_start_date"
+                            "type" : "slot",
+                            "name" : "planned_start_date"
                           },
                           {
-                            "type": "slot",
-                            "name": "planned_duration"
-                          },
-                          {
-                            "type": "slot",
-                            "name": "planned_end_date"
+                            "type" : "slot",
+                            "name" : "planned_end_date"
                           }
                         ]
                       ],
-                      "guid": "d977s7",
-                      "columns": 2
+                      "guid" : "d977s7",
+                      "columns" : 2
                     },
                     {
-                      "type": "section",
-                      "colData": [
-                        {
-                          "column": 0,
-                          "title": "Request Detail",
-                          "templateClass": ""
-                        }
+                      "type" : "section",
+                      "colData" : [
+                        { },
+                        { }
                       ],
-                      "cols": [
+                      "cols" : [
                         [
                           {
-                            "type": "slot",
-                            "name": "service"
+                            "type" : "slot",
+                            "name" : "assignment_group"
                           },
                           {
-                            "type": "slot",
-                            "name": "description"
+                            "type" : "slot",
+                            "name" : "assignment_user"
+                          }
+                        ],
+                        [
+                          {
+                            "type" : "slot",
+                            "name" : "created"
+                          },
+                          {
+                            "type" : "slot",
+                            "name" : "updated"
                           }
                         ]
                       ],
-                      "guid": "7a3d383ab74b6cee3c1234062f35dcfd",
-                      "columns": 1
+                      "guid" : "ja5iaw",
+                      "columns" : 2
+                    },
+                    {
+                      "type" : "section",
+                      "colData" : [
+                        {
+                          "column" : 0,
+                          "title" : "Request Detail",
+                          "templateClass" : ""
+                        }
+                      ],
+                      "cols" : [
+                        [
+                          {
+                            "type" : "slot",
+                            "name" : "service"
+                          },
+                          {
+                            "type" : "slot",
+                            "name" : "description"
+                          }
+                        ]
+                      ],
+                      "guid" : "7a3d383ab74b6cee3c1234062f35dcfd",
+                      "columns" : 1
                     }
                   ],
-                  "pageData": { }
+                  "pageData" : { }
                 }
               },
-              "component": "details",
-              "new_record_values": "[]",
-              "read_only": "false",
-              "include_actions": "1",
-              "id": "28a55e38a91ef074583816633052dc96",
-              "csstags": ""
+              "component" : "details",
+              "new_record_values" : "[]",
+              "read_only" : "false",
+              "query" : "[]",
+              "include_actions" : "1",
+              "id" : "28a55e38a91ef074583816633052dc96",
+              "csstags" : "",
+              "__raw" : {
+                "query" : "%{pageVars.q}"
+              }
             },
-            "w": "100%",
-            "h": "46%"
+            "w" : "100%",
+            "h" : "46%"
           },
-          "component_b78fe9df4096790116ee372ed425ffad": {
-            "type": "component",
-            "component": "related",
-            "id": "component_b78fe9df4096790116ee372ed425ffad",
-            "name": "component_b78fe9df4096790116ee372ed425ffad",
-            "page_loading": false,
-            "needs_subpage_target": false,
-            "attributes": {
-              "component": "related",
-              "id": "8ffe198eb4f451f00408dd537a67fa3b",
-              "related": [
+          "component_b78fe9df4096790116ee372ed425ffad" : {
+            "type" : "component",
+            "component" : "related",
+            "id" : "component_b78fe9df4096790116ee372ed425ffad",
+            "name" : "component_b78fe9df4096790116ee372ed425ffad",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "component" : "related",
+              "id" : "8ffe198eb4f451f00408dd537a67fa3b",
+              "related" : [
                 {
-                  "label": "Time card (record)",
-                  "value": "2p2pwvnj.record",
-                  "tabLabel": "Time",
-                  "sortBy": "week_start",
-                  "sortDirection": "ascending",
-                  "hidden": "[[[\"state\",\"eq\",\"8424352b14a14bd7b8a38ae49a0c40f6\",\"Draft\"]],\"OR\",[[\"state\",\"eq\",\"ef2da80e888645fcba833d9d66230a88\",\"PM Approval\"]],\"OR\",[[\"state\",\"eq\",\"9fc2c99f916c495d9ca5f18c1a403605\",\"Tenant Rebound\"]],\"OR\",[[\"state\",\"eq\",\"b30ee99237a54d01992d06aabf4beda0\",\"Cancelled \"]]]",
-                  "many_link_behavior": "linked_record"
+                  "label" : "Time card (record)",
+                  "value" : "2p2pwvnj.record",
+                  "tabLabel" : "Time",
+                  "sortBy" : "week_start",
+                  "sortDirection" : "ascending",
+                  "hidden" : "[[[\"state\",\"eq\",\"8424352b14a14bd7b8a38ae49a0c40f6\",\"Draft\"]],\"OR\",[[\"state\",\"eq\",\"ef2da80e888645fcba833d9d66230a88\",\"PM Approval\"]],\"OR\",[[\"state\",\"eq\",\"9fc2c99f916c495d9ca5f18c1a403605\",\"Tenant Rebound\"]],\"OR\",[[\"state\",\"eq\",\"b30ee99237a54d01992d06aabf4beda0\",\"Cancelled \"]]]",
+                  "many_link_behavior" : "linked_record"
                 },
                 {
-                  "label": "Material (request)",
-                  "value": "6ky21zly.request",
-                  "tabLabel": "Materials",
-                  "sortBy": "",
-                  "sortDirection": "ascending",
-                  "hidden": "[[[\"state\",\"eq\",\"8424352b14a14bd7b8a38ae49a0c40f6\",\"Draft\"]],\"OR\",[[\"state\",\"eq\",\"9fc2c99f916c495d9ca5f18c1a403605\",\"Tenant Rebound\"]],\"OR\",[[\"state\",\"eq\",\"ef2da80e888645fcba833d9d66230a88\",\"PM Approval\"]],\"OR\",[[\"state\",\"eq\",\"b30ee99237a54d01992d06aabf4beda0\",\"Cancelled \"]]]",
-                  "many_link_behavior": "linked_record"
+                  "label" : "Material (request)",
+                  "value" : "6ky21zly.request",
+                  "tabLabel" : "Materials",
+                  "sortBy" : "",
+                  "sortDirection" : "ascending",
+                  "hidden" : "[[[\"state\",\"eq\",\"8424352b14a14bd7b8a38ae49a0c40f6\",\"Draft\"]],\"OR\",[[\"state\",\"eq\",\"9fc2c99f916c495d9ca5f18c1a403605\",\"Tenant Rebound\"]],\"OR\",[[\"state\",\"eq\",\"ef2da80e888645fcba833d9d66230a88\",\"PM Approval\"]],\"OR\",[[\"state\",\"eq\",\"b30ee99237a54d01992d06aabf4beda0\",\"Cancelled \"]]]",
+                  "many_link_behavior" : "linked_record"
                 }
               ],
-              "csstags": ""
+              "csstags" : ""
             },
-            "w": "70%",
-            "h": "100%"
+            "w" : "33%",
+            "h" : "100%"
           },
-          "container_c9f23c450d74f4cfbec69a7bff128fbb": {
-            "type": "container",
-            "w": "100%",
-            "h": "34%",
-            "contains": [
+          "container_c9f23c450d74f4cfbec69a7bff128fbb" : {
+            "type" : "container",
+            "w" : "100%",
+            "h" : "34%",
+            "contains" : [
               "component_b78fe9df4096790116ee372ed425ffad",
+              "component_96aaf6d7b4d8e6173fba6df8c2f74247",
               "component_0ac32ca3b1add48e202b1af2af82f912"
             ]
+          },
+          "component_96aaf6d7b4d8e6173fba6df8c2f74247" : {
+            "type" : "component",
+            "component" : "attachments",
+            "id" : "component_96aaf6d7b4d8e6173fba6df8c2f74247",
+            "name" : "component_96aaf6d7b4d8e6173fba6df8c2f74247",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "component" : "attachments",
+              "images_only" : true
+            },
+            "h" : "100%",
+            "w" : "33%"
           }
         },
-        "name": "details.default.econ_request",
-        "owner": "1066af59a57445b3bd5e68678f993f2a",
-        "public": "0",
-        "schema_version": "0",
-        "system_updated": "0"
+        "name" : "details.default.econ_request",
+        "owner" : "1066af59a57445b3bd5e68678f993f2a",
+        "public" : "0",
+        "schema_version" : "0",
+        "system_updated" : "0"
       }
     }
   }

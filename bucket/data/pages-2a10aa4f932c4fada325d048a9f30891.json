@@ -20,10 +20,7 @@
             "name" : "component_22afc6b7762c0593b7ad3bde9fec4fe0",
             "needs_subpage_target" : false,
             "attributes" : {
-              "bucket" : "jtkw97xr",
               "force_condition" : "[]",
-              "component" : "list",
-              "allow_sorting" : "true",
               "inline_details" : false,
               "columns" : [
                 "number",
@@ -31,13 +28,18 @@
                 "requested_for",
                 "tenant",
                 "facility",
-                "suite",
-                "service",
-                "meta_datatag"
+                "service"
               ],
+              "query" : "%{pageVars.q}",
+              "csstags" : "",
+              "__raw" : {
+                "query" : "%{pageVars.q}"
+              },
+              "bucket" : "jtkw97xr",
+              "component" : "list",
+              "allow_sorting" : "true",
               "height_option" : "",
               "id" : "a7c2003765b36c9855530a198d9448df",
-              "csstags" : "",
               "list_spacing" : "",
               "height" : 300
             },

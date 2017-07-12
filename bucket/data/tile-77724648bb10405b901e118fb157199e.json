@@ -18,7 +18,7 @@
         "system_updated" : "0",
         "tile_group" : "4662df061ec04379aada7d4398debfc6",
         "title" : "separate_file://bucket/data/tile-77724648bb10405b901e118fb157199e-title.html",
-        "url" : "#/dev.econ_request_management/property_manager_view_approvals"
+        "url" : "#/dev.econ_request_management/list.default.econ_request?q=[[[\"approval:parent.meta_datatag\",\"contains\",\"custom://f8032f7055f6492bb9f9c2b542dbc9f5\",\"the current user\"]]]"
       }
     }
   }

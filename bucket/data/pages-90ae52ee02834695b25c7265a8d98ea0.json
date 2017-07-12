@@ -1,0 +1,242 @@
+{
+  "bucket_data" : {
+    "pages" : {
+      "90ae52ee02834695b25c7265a8d98ea0" : {
+        "created" : "1499800046461",
+        "id" : "90ae52ee02834695b25c7265a8d98ea0",
+        "layout" : {
+          "component_06c2569b3f92b9e18775cde5d7f7b04b" : {
+            "type" : "component",
+            "component" : "chart",
+            "id" : "component_06c2569b3f92b9e18775cde5d7f7b04b",
+            "name" : "component_06c2569b3f92b9e18775cde5d7f7b04b",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "component" : "chart",
+              "chart_title" : "Requests by Tenant",
+              "type" : "bar",
+              "pie_size" : "98%",
+              "bar_height" : "50%",
+              "height" : "350",
+              "stacked" : "0",
+              "show_title" : "top",
+              "yAxisFormat" : "",
+              "yAxisFormatRight" : "",
+              "show_legend" : "top",
+              "dynamic_dataset" : false,
+              "datasets" : [
+                {
+                  "2" : "average",
+                  "8" : "bar",
+                  "id" : "b337048f46d414579f8959a4237ac1eb",
+                  "parent_type" : "bar",
+                  "value_type" : "count",
+                  "display_as" : "bar",
+                  "condition" : "[]",
+                  "bucket" : "jtkw97xr",
+                  "label_slot" : "tenant",
+                  "value_slot" : "actual_cost",
+                  "title" : "Requests"
+                }
+              ],
+              "show_points" : "true",
+              "tooltip_format_for_dates" : "",
+              "show_xaxis" : true,
+              "show_tooltips" : true,
+              "show_yaxis" : true,
+              "yaxis_range" : false,
+              "yaxis_range_min" : 0,
+              "yaxis_range_max" : 100,
+              "gauge_label_format" : "",
+              "maximum_value" : "100"
+            },
+            "h" : "50%",
+            "w" : "100%"
+          },
+          "container_969b10ad0c18a7e965eac9b8abba0992" : {
+            "type" : "container",
+            "w" : "50%",
+            "h" : "100%",
+            "contains" : [
+              "component_b4f120b9377b403f12af5563acb21514",
+              "component_fce06cb6f084523dc01e419d8db87737"
+            ]
+          },
+          "component_e9086fb60603c66c4daeab8f104859f2" : {
+            "type" : "component",
+            "component" : "chart",
+            "id" : "component_e9086fb60603c66c4daeab8f104859f2",
+            "name" : "component_e9086fb60603c66c4daeab8f104859f2",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "yaxis_range" : false,
+              "stacked" : "0",
+              "show_points" : "true",
+              "tooltip_format_for_dates" : "",
+              "yaxis_range_max" : 100,
+              "chart_title" : "Requests by Assignment",
+              "bar_height" : "98%",
+              "show_legend" : "top",
+              "dynamic_dataset" : false,
+              "datasets" : [
+                {
+                  "2" : "average",
+                  "8" : "bar",
+                  "id" : "36be5cf4514c66ab5cd8f3dd7fb860d4",
+                  "parent_type" : "pie",
+                  "value_type" : "count",
+                  "display_as" : "bar",
+                  "condition" : "[]",
+                  "bucket" : "jtkw97xr",
+                  "value_slot" : "actual_cost",
+                  "label_slot" : "assignment_group",
+                  "title" : "Assignment Group"
+                }
+              ],
+              "type" : "pie",
+              "yAxisFormatRight" : "",
+              "yAxisFormat" : "",
+              "gauge_label_format" : "",
+              "pie_size" : "50%",
+              "show_xaxis" : true,
+              "yaxis_range_min" : 0,
+              "component" : "chart",
+              "show_title" : "top",
+              "show_tooltips" : true,
+              "maximum_value" : "100",
+              "show_yaxis" : true,
+              "height" : "350",
+              "id" : "8bf769ca3264ffaeee3be1117b6d0cf2"
+            },
+            "w" : "100%",
+            "h" : "50%"
+          },
+          "__start__" : {
+            "type" : "container",
+            "w" : "100%",
+            "h" : "100%",
+            "contains" : [
+              "container_969b10ad0c18a7e965eac9b8abba0992",
+              "container_ae0aab4f37d8495671aea811749aab8c"
+            ],
+            "layout_type" : "page_components"
+          },
+          "component_b4f120b9377b403f12af5563acb21514" : {
+            "type" : "component",
+            "component" : "chart",
+            "id" : "component_b4f120b9377b403f12af5563acb21514",
+            "name" : "component_b4f120b9377b403f12af5563acb21514",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "component" : "chart",
+              "chart_title" : "Requests by Facility",
+              "type" : "bar",
+              "pie_size" : "98%",
+              "bar_height" : "50%",
+              "height" : "350",
+              "stacked" : "0",
+              "show_title" : "top",
+              "yAxisFormat" : "",
+              "yAxisFormatRight" : "",
+              "show_legend" : "top",
+              "dynamic_dataset" : false,
+              "datasets" : [
+                {
+                  "2" : "average",
+                  "8" : "bar",
+                  "id" : "de4f9c159a8dfed5a083dd81d528413e",
+                  "parent_type" : "bar",
+                  "value_type" : "count",
+                  "display_as" : "bar",
+                  "condition" : "[]",
+                  "bucket" : "jtkw97xr",
+                  "label_slot" : "facility",
+                  "value_slot" : "actual_cost",
+                  "title" : "Requests"
+                }
+              ],
+              "show_points" : "true",
+              "tooltip_format_for_dates" : "",
+              "show_xaxis" : true,
+              "show_tooltips" : true,
+              "show_yaxis" : true,
+              "yaxis_range" : false,
+              "yaxis_range_min" : 0,
+              "yaxis_range_max" : 100,
+              "gauge_label_format" : "",
+              "maximum_value" : "100"
+            },
+            "w" : "100%",
+            "h" : "50%"
+          },
+          "container_ae0aab4f37d8495671aea811749aab8c" : {
+            "type" : "container",
+            "w" : "50%",
+            "h" : "100%",
+            "contains" : [
+              "component_06c2569b3f92b9e18775cde5d7f7b04b",
+              "component_e9086fb60603c66c4daeab8f104859f2"
+            ]
+          },
+          "component_fce06cb6f084523dc01e419d8db87737" : {
+            "type" : "component",
+            "component" : "chart",
+            "id" : "component_fce06cb6f084523dc01e419d8db87737",
+            "name" : "component_fce06cb6f084523dc01e419d8db87737",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "component" : "chart",
+              "chart_title" : "Requests by State",
+              "type" : "pie",
+              "pie_size" : "50%",
+              "bar_height" : "98%",
+              "height" : "350",
+              "stacked" : "0",
+              "show_title" : "top",
+              "yAxisFormat" : "",
+              "yAxisFormatRight" : "",
+              "show_legend" : "top",
+              "dynamic_dataset" : false,
+              "datasets" : [
+                {
+                  "2" : "average",
+                  "8" : "bar",
+                  "id" : "c496997ac9f3a53d957ce8e7357b7f89",
+                  "parent_type" : "bar",
+                  "value_type" : "count",
+                  "display_as" : "bar",
+                  "condition" : "[]",
+                  "bucket" : "jtkw97xr",
+                  "value_slot" : "actual_cost",
+                  "label_slot" : "state",
+                  "title" : "State"
+                }
+              ],
+              "show_points" : "true",
+              "tooltip_format_for_dates" : "",
+              "show_xaxis" : true,
+              "show_tooltips" : true,
+              "show_yaxis" : true,
+              "yaxis_range" : false,
+              "yaxis_range_min" : 0,
+              "yaxis_range_max" : 100,
+              "gauge_label_format" : "",
+              "maximum_value" : "100"
+            },
+            "w" : "100%",
+            "h" : "50%"
+          }
+        },
+        "name" : "request_dashboard",
+        "owner" : "a94422adc0a643578468ec9b9e4e3fac",
+        "public" : "0",
+        "schema_version" : "0",
+        "system_updated" : "0"
+      }
+    }
+  }
+}

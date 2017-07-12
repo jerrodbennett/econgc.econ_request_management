@@ -1,0 +1,19 @@
+{
+  "bucket_data" : {
+    "navigator_item_url" : {
+      "6ff3532cd6bd4e3ca77d3af2b154216a" : {
+        "color" : "#597CA4",
+        "created" : "1499796787753",
+        "icon" : "fontawesome:usd",
+        "id" : "6ff3532cd6bd4e3ca77d3af2b154216a",
+        "label" : "Services",
+        "order" : "5",
+        "owner" : "a94422adc0a643578468ec9b9e4e3fac",
+        "parent" : "a6a3985365aa4748b65b45adc7e38c5a",
+        "schema_version" : "0",
+        "system_updated" : "0",
+        "url" : "#/dev.econ_request_management/staff_view_services"
+      }
+    }
+  }
+}

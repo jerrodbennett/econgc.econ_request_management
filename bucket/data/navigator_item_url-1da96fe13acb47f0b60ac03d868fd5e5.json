@@ -1,0 +1,19 @@
+{
+  "bucket_data" : {
+    "navigator_item_url" : {
+      "1da96fe13acb47f0b60ac03d868fd5e5" : {
+        "color" : "#597CA4",
+        "created" : "1499796787719",
+        "icon" : "fontawesome:building",
+        "id" : "1da96fe13acb47f0b60ac03d868fd5e5",
+        "label" : "Facilities, Suites & Tenants",
+        "order" : "4",
+        "owner" : "a94422adc0a643578468ec9b9e4e3fac",
+        "parent" : "a6a3985365aa4748b65b45adc7e38c5a",
+        "schema_version" : "0",
+        "system_updated" : "0",
+        "url" : ""
+      }
+    }
+  }
+}

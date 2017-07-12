@@ -1,0 +1,19 @@
+{
+  "bucket_data" : {
+    "navigator_item_seperator" : {
+      "ebb962d47198491e8863a8e83961ae3b" : {
+        "collapsible" : "",
+        "color" : "",
+        "created" : "1499799970844",
+        "icon" : "",
+        "id" : "ebb962d47198491e8863a8e83961ae3b",
+        "label" : "Dashboards",
+        "order" : "13",
+        "owner" : "a94422adc0a643578468ec9b9e4e3fac",
+        "parent" : "b58a109a88a1400db36b9d61893eaafd",
+        "schema_version" : "0",
+        "system_updated" : "0"
+      }
+    }
+  }
+}

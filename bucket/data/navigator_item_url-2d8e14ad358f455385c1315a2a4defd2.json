@@ -1,0 +1,19 @@
+{
+  "bucket_data" : {
+    "navigator_item_url" : {
+      "2d8e14ad358f455385c1315a2a4defd2" : {
+        "color" : "#1D4E85",
+        "created" : "1499796787567",
+        "icon" : "fontawesome:plus",
+        "id" : "2d8e14ad358f455385c1315a2a4defd2",
+        "label" : "New Request",
+        "order" : "0",
+        "owner" : "a94422adc0a643578468ec9b9e4e3fac",
+        "parent" : "a6a3985365aa4748b65b45adc7e38c5a",
+        "schema_version" : "0",
+        "system_updated" : "0",
+        "url" : "#/dev.econ_request_management/details.default.econ_request?new=true&q=[]"
+      }
+    }
+  }
+}

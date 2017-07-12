@@ -1,0 +1,19 @@
+{
+  "bucket_data" : {
+    "navigator_item_url" : {
+      "ffb91191b3ea46228bf9f4daa55e34aa" : {
+        "color" : "#1D4E85",
+        "created" : "1499796787642",
+        "icon" : "fontawesome:thumbs-o-up",
+        "id" : "ffb91191b3ea46228bf9f4daa55e34aa",
+        "label" : "Pending Approvals",
+        "order" : "2",
+        "owner" : "a94422adc0a643578468ec9b9e4e3fac",
+        "parent" : "a6a3985365aa4748b65b45adc7e38c5a",
+        "schema_version" : "0",
+        "system_updated" : "0",
+        "url" : "#/dev.econ_request_management/list.default.econ_request?q=[[[\"approval:parent.meta_datatag\",\"contains\",\"custom://f8032f7055f6492bb9f9c2b542dbc9f5\",\"the current user\"]]]"
+      }
+    }
+  }
+}

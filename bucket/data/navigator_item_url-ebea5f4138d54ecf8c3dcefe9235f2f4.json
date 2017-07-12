@@ -1,0 +1,19 @@
+{
+  "bucket_data" : {
+    "navigator_item_url" : {
+      "ebea5f4138d54ecf8c3dcefe9235f2f4" : {
+        "color" : "#1D4E85",
+        "created" : "1499796451749",
+        "icon" : "fontawesome:plus",
+        "id" : "ebea5f4138d54ecf8c3dcefe9235f2f4",
+        "label" : "New Request",
+        "order" : "0",
+        "owner" : "a94422adc0a643578468ec9b9e4e3fac",
+        "parent" : "037e5421bd324afb88c967296f58b05d",
+        "schema_version" : "0",
+        "system_updated" : "0",
+        "url" : "#/dev.econ_request_management/tenant_new_request"
+      }
+    }
+  }
+}

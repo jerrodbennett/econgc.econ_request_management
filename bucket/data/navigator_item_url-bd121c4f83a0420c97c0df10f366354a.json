@@ -2,8 +2,9 @@
   "bucket_data" : {
     "navigator_item_url" : {
       "bd121c4f83a0420c97c0df10f366354a" : {
+        "color" : "#1D4E85",
         "created" : "1494026495923",
-        "icon" : "",
+        "icon" : "fontawesome:link",
         "id" : "bd121c4f83a0420c97c0df10f366354a",
         "label" : "Tenant",
         "order" : "1",

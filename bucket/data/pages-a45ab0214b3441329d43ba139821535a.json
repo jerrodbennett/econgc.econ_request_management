@@ -1,57 +1,55 @@
 {
-  "bucket_data": {
-    "pages": {
-      "a45ab0214b3441329d43ba139821535a": {
-        "created": "1494026423590",
-        "id": "a45ab0214b3441329d43ba139821535a",
-        "layout": {
-          "component_2db8a034a09d3a225acd2762f3f6b2b0": {
-            "type": "component",
-            "component": "list",
-            "id": "component_2db8a034a09d3a225acd2762f3f6b2b0",
-            "name": "component_2db8a034a09d3a225acd2762f3f6b2b0",
-            "page_loading": false,
-            "needs_subpage_target": false,
-            "attributes": {
-              "bucket": "jtkw97xr",
-              "force_condition": "[]",
-              "component": "list",
-              "allow_sorting": "true",
-              "inline_details": false,
-              "columns": [
+  "bucket_data" : {
+    "pages" : {
+      "a45ab0214b3441329d43ba139821535a" : {
+        "created" : "1494026423590",
+        "id" : "a45ab0214b3441329d43ba139821535a",
+        "layout" : {
+          "component_2db8a034a09d3a225acd2762f3f6b2b0" : {
+            "type" : "component",
+            "component" : "list",
+            "id" : "component_2db8a034a09d3a225acd2762f3f6b2b0",
+            "name" : "component_2db8a034a09d3a225acd2762f3f6b2b0",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "bucket" : "jtkw97xr",
+              "force_condition" : "[]",
+              "component" : "list",
+              "allow_sorting" : "true",
+              "inline_details" : false,
+              "columns" : [
                 "number",
                 "state",
-                "requested_for",
                 "tenant",
                 "facility",
-                "suite",
-                "service",
-                "created"
+                "service"
               ],
-              "height_option": "",
-              "id": "92b0bf601444481919faaedd6dda2661",
-              "csstags": "",
-              "list_spacing": "",
-              "height": 300
+              "height_option" : "",
+              "id" : "92b0bf601444481919faaedd6dda2661",
+              "csstags" : "",
+              "list_spacing" : "",
+              "height" : 300,
+              "query" : "%{pageVars.q}"
             },
-            "w": "100%",
-            "h": "100%"
+            "w" : "100%",
+            "h" : "100%"
           },
-          "__start__": {
-            "type": "container",
-            "w": "100%",
-            "h": "100%",
-            "contains": [
+          "__start__" : {
+            "type" : "container",
+            "w" : "100%",
+            "h" : "100%",
+            "contains" : [
               "component_2db8a034a09d3a225acd2762f3f6b2b0"
             ],
-            "layout_type": "page_components"
+            "layout_type" : "page_components"
           }
         },
-        "name": "tenant_view_requests",
-        "owner": "1066af59a57445b3bd5e68678f993f2a",
-        "public": "0",
-        "schema_version": "0",
-        "system_updated": "0"
+        "name" : "tenant_view_requests",
+        "owner" : "1066af59a57445b3bd5e68678f993f2a",
+        "public" : "0",
+        "schema_version" : "0",
+        "system_updated" : "0"
       }
     }
   }

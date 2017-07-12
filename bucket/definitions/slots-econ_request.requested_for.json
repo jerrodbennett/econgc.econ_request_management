@@ -1,0 +1,31 @@
+{
+  "bucket_data" : {
+    "slots" : {
+      "jtkw97xr.requested_for" : {
+        "attributes" : {
+          "slot_types" : "false",
+          "slots" : "false",
+          "use_parent_bucket" : "false",
+          "default" : "%{customConditionValue.e1f2f072dbfb4842a9225a25d40f2810}",
+          "buckets" : "false",
+          "bucket_name" : "user",
+          "multiple" : "false",
+          "none_option" : "false",
+          "hide_jumpto" : "false",
+          "choice_type" : "typeahead",
+          "sort_choices" : "0"
+        },
+        "bucket" : "jtkw97xr",
+        "created" : "1441739103622",
+        "id" : "gjbmjqhh.requested_for",
+        "labels" : {
+          "label" : "Requested for",
+          "labelp" : "Requested for"
+        },
+        "name" : "requested_for",
+        "system_updated" : "0",
+        "type" : "choice"
+      }
+    }
+  }
+}

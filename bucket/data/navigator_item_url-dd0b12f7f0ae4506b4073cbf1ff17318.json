@@ -1,0 +1,19 @@
+{
+  "bucket_data" : {
+    "navigator_item_url" : {
+      "dd0b12f7f0ae4506b4073cbf1ff17318" : {
+        "color" : "#ff0000",
+        "created" : "1499793277565",
+        "icon" : "fontawesome:at",
+        "id" : "dd0b12f7f0ae4506b4073cbf1ff17318",
+        "label" : "Test",
+        "order" : "0",
+        "owner" : "a94422adc0a643578468ec9b9e4e3fac",
+        "parent" : "47c32a35a5c5444a84d7598f9e6d0934",
+        "schema_version" : "0",
+        "system_updated" : "0",
+        "url" : "tenant_new_request"
+      }
+    }
+  }
+}

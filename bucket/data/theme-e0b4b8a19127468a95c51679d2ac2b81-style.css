@@ -1,0 +1,231 @@
+/* DEFAULT CORE STYLES FOR ALL BUNDLES */
+
+/* -----------------------------------------------------------------------
+* Overall theme settings
+* ----------------------------------------------------------------------- */
+html {
+	font-size: var(--font-size);
+	font-family: var(--font-family);
+}
+
+body {
+	/*background-color: var(--bg-primary);*/
+	background-image: url("images/blueprint_background_light.png");
+	color: var(--text-color);
+}
+
+/* -----------------------------------------------------------------------
+* Containers go inside these (most of the time)
+* ----------------------------------------------------------------------- */
+.containerWrapperBody {
+	/*background-color: var(--container-bg);*/
+	border: var(--border);
+	padding: var(--spacing-vertical) var(--spacing-horizontal);
+	border-radius: var(--border-radius);
+}
+
+/* -----------------------------------------------------------------------
+* a tags
+* ----------------------------------------------------------------------- */
+a, a:link, a:visited, a:active {
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+	text-decoration: underline;
+}
+
+/* -----------------------------------------------------------------------
+* Bootstrap .nav theme
+* ----------------------------------------------------------------------- */
+.nav > li > a {
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color .3s, color .3s;
+}
+
+.nav > li > a:hover {
+	text-decoration: underline;
+	background-color: var(--color-light);
+}
+
+.nav > li > a.active a:focus {
+	text-decoration: none;
+}
+
+.nav-tabs > li.active > a {
+	color: var(--color-darker);
+	background-color: var(--color-lightest);
+	font-weight: bold;
+}
+
+.nav-pills > li > a {
+	padding: var(--spacing);
+	border-radius: 0;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background-color: var(--color-lightest);
+}
+
+/* -----------------------------------------------------------------------
+* Bootstrap .btn theme
+* ----------------------------------------------------------------------- */
+.btn {
+	padding: var(--button-spacing-vertical) var(--button-spacing-horizontal);
+	font-size: var(--button-font-size);
+	font-weight: bold;
+	line-height: var(--button-line-height);
+}
+
+.input-group-btn > .btn {
+	padding: 4px var(--button-spacing-horizontal);	
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {	
+	color: var(--button-hover-color);
+	text-decoration: none;
+}
+
+.btn-default {
+	color: var(--button-color);
+	background-color: var(--button-bg);
+	border-color: var(--button-border-color);
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.open > .dropdown-toggle.btn-default {
+	color: var(--button-hover-color);
+	background-color: var(--button-hover-bg);
+	border-color: var(--button-hover-border-color);
+	-moz-box-shadow: 0 0 1px #aaa;
+	-webkit-box-shadow: 0 0 1px #aaa;
+	box-shadow: 0 0 1px #aaa;  
+}
+
+.btn-default:active,
+.btn-default.active {
+	color: var(--button-active-color);
+	background-color: var(--button-active-bg);
+	border-color: var(--button-active-border-color);
+	-moz-box-shadow: 0 0 1px #aaa;
+	-webkit-box-shadow: 0 0 1px #aaa;
+	box-shadow: 0 0 1px #aaa;  
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+	color: var(--button-disabled-color);
+	background-color: var(--button-disabled-bg);
+	border-color: var(--button-disabled-border-color);
+}
+
+/* -----------------------------------------------------------------------
+* Bootstrap panel theme
+* ----------------------------------------------------------------------- */
+.panel {
+	border-color: var(--panel-border-color);
+}
+
+.panel-default > .panel-heading {
+	background-color: var(--panel-header-bg);
+	font-weight: bold;
+}
+
+.panel-body {
+	padding: var(--spacing);
+}
+
+.panel-squared {		/* panel with square borders instead of rounded - default is rounded */
+	border-radius: var(--panel-squared-border-radius);
+}
+
+.panel-squared > .panel-heading {
+	border-radius: var(--panel-squared-border-radius);
+}	
+
+/* -----------------------------------------------------------------------
+* Form section support
+* ----------------------------------------------------------------------- */
+.tabbed-section-content .row {
+	margin: 0;
+}
+
+.section-container {
+	padding: 0px var(--spacing-horizontal) var(--spacing-vertical);
+	margin-top: var(--bumper-lg);
+	margin-bottom: var(--spacing-vertical);
+	/*padding: 0px 5px 5px 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;*/
+}
+
+.section-wrapper {
+	position: relative;
+	border: var(--border);
+	border-radius: var(--border-radius);
+	padding: var(--spacing);
+}
+
+.section-title {
+	position: absolute;
+	top: -11px;
+	background: var(--section-bg);
+	padding: 0 var(--spacing-horizontal);
+	color: var(--section-title-color);
+	font-weight: bold;
+}
+
+/* -----------------------------------------------------------------------
+* List groups
+* ----------------------------------------------------------------------- */
+.list-group-item {
+	margin: var(--list-group-margin);
+	background-color: var(--list-group-bg);
+	border-radius: var(--list-group-border-radius);	
+}
+
+.list-group-item:hover,
+.list-group-item:focus {
+	text-decoration: underline;
+	background-color: var(--list-group-hover-bg);	
+}
+
+/* -----------------------------------------------------------------------
+* Form inputs
+* ----------------------------------------------------------------------- */
+.form-control {
+	font-size: 1.0rem;
+	background-color: var(--input-bg);
+	color: var(--input-text-color);
+}
+
+.form-control[disabled], 
+.form-control[readonly], 
+fieldset[disabled] .form-control {
+	background-color: var(--input-disabled-bg);
+	color: var(--input-disabled-color);
+}

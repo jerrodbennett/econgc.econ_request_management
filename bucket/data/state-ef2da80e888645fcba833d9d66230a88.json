@@ -21,7 +21,7 @@
                 "condition" : "",
                 "order" : 0,
                 "type" : "always",
-                "to" : "195103129fc59b72794c421c650ee95e"
+                "to" : "30a60c9c158335e0b930e18f430a42ac"
               }
             ]
           },
@@ -32,8 +32,8 @@
               "notification_interval" : 7200,
               "acceptance_behavior" : "all_must_approve",
               "name" : "Approval",
-              "approvers_specify" : "[{\"id\":\"f39b8b5f81a3069d87aa3f9f4b20b708\",\"bucket\":\"user\",\"approver\":\"4c4966dabe2542faa2cc544fd9c28dfe\"}]",
-              "obj_name" : "Property Management Approval",
+              "approvers_specify" : "[{\"id\":\"dfc81723218665592218758b7c40a874\",\"bucket\":\"user\",\"approver\":\"f2934a6cddeb4b1caf2dc50551641de9\"}]",
+              "obj_name" : "Test",
               "obj_type" : "approval"
             },
             "output" : { },
@@ -41,24 +41,66 @@
             "value" : "approval",
             "label" : "Approval",
             "type" : "approval",
-            "text" : "Property Management Approval",
-            "left" : 149,
+            "text" : "Test",
+            "left" : 170,
             "top" : 2,
-            "id" : "195103129fc59b72794c421c650ee95e",
+            "id" : "30a60c9c158335e0b930e18f430a42ac",
             "width" : 100,
             "height" : 34,
             "routes" : [
               {
                 "text" : "Approved",
                 "condition" : "success:eq:1:true",
-                "order" : 0
+                "order" : 0,
+                "to" : "8590d2506125798dd7271a77c241a782"
               },
               {
                 "text" : "Rejected",
                 "condition" : "success:eq:0:false",
-                "order" : 1
+                "order" : 1,
+                "to" : "bb149996fae48aebdfd3e34aaf503cc7"
               }
             ]
+          },
+          {
+            "data" : {
+              "name" : "State switch",
+              "state" : "9fc2c99f916c495d9ca5f18c1a403605",
+              "obj_name" : "Tenant rebound",
+              "obj_type" : "state_switch"
+            },
+            "output" : { },
+            "name" : "state_switch",
+            "value" : "state_switch",
+            "label" : "State switch",
+            "type" : "state_switch",
+            "text" : "Tenant rebound",
+            "left" : 326,
+            "top" : 91,
+            "id" : "bb149996fae48aebdfd3e34aaf503cc7",
+            "width" : 100,
+            "height" : 34,
+            "routes" : [ ]
+          },
+          {
+            "data" : {
+              "name" : "State switch",
+              "state" : "c07226b40f4d40648764532fa67e5808",
+              "obj_name" : "Scheduling",
+              "obj_type" : "state_switch"
+            },
+            "output" : { },
+            "name" : "state_switch",
+            "value" : "state_switch",
+            "label" : "State switch",
+            "type" : "state_switch",
+            "text" : "Scheduling",
+            "left" : 327,
+            "top" : 6,
+            "id" : "8590d2506125798dd7271a77c241a782",
+            "width" : 100,
+            "height" : 34,
+            "routes" : [ ]
           }
         ],
         "bucket" : "jtkw97xr",

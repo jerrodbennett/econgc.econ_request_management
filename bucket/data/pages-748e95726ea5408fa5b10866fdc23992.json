@@ -1,59 +1,76 @@
 {
-  "bucket_data": {
-    "pages": {
-      "748e95726ea5408fa5b10866fdc23992": {
-        "created": "1494375327858",
-        "id": "748e95726ea5408fa5b10866fdc23992",
-        "layout": {
-          "component_b47a0782dfcda63206786788c1d6d341": {
-            "type": "component",
-            "component": "markup",
-            "id": "component_b47a0782dfcda63206786788c1d6d341",
-            "name": "component_b47a0782dfcda63206786788c1d6d341",
-            "page_loading": false,
-            "needs_subpage_target": false,
-            "attributes": {
-              "component": "markup",
-              "type": "html",
-              "html": "<html>\n\t<img src=\"http://econconstructioninc.com/wp-content/uploads/2015/06/facilitybanner.jpg\" width=\"100%\" alt=\"Top Banner\">\n</html>",
-              "csstags": ""
-            },
-            "w": "100%",
-            "h": "50%"
-          },
-          "__start__": {
-            "type": "container",
-            "w": "100%",
-            "h": "100%",
-            "contains": [
-              "component_b47a0782dfcda63206786788c1d6d341",
-              "component_1cda0dc7618233c824192a1c7bd965a0"
+  "bucket_data" : {
+    "pages" : {
+      "748e95726ea5408fa5b10866fdc23992" : {
+        "created" : "1494375327858",
+        "id" : "748e95726ea5408fa5b10866fdc23992",
+        "layout" : {
+          "__start__" : {
+            "type" : "container",
+            "w" : "100%",
+            "h" : "100%",
+            "contains" : [
+              "component_c8a3808ceea1c3b73599da17378ef182"
             ],
-            "layout_type": "page_components"
+            "layout_type" : "page_components"
           },
-          "component_1cda0dc7618233c824192a1c7bd965a0": {
-            "type": "component",
-            "component": "tiles",
-            "id": "component_1cda0dc7618233c824192a1c7bd965a0",
-            "name": "component_1cda0dc7618233c824192a1c7bd965a0",
-            "page_loading": false,
-            "needs_subpage_target": false,
-            "attributes": {
-              "component": "tiles",
-              "tiles_per_row": 5,
-              "id": "3aa1cfd54997f6fc0835194e8211841d",
-              "tile_group": "af9d79f26daa4dee921175fb35cb5c55",
-              "csstags": ""
+          "component_c8a3808ceea1c3b73599da17378ef182" : {
+            "type" : "component",
+            "component" : "details",
+            "id" : "component_c8a3808ceea1c3b73599da17378ef182",
+            "name" : "component_c8a3808ceea1c3b73599da17378ef182",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "bucket" : "jtkw97xr",
+              "new_record" : true,
+              "layout" : {
+                "layout" : {
+                  "version" : 1,
+                  "layout" : [
+                    {
+                      "type" : "section",
+                      "colData" : [
+                        { }
+                      ],
+                      "cols" : [
+                        [
+                          {
+                            "type" : "slot",
+                            "name" : "service"
+                          },
+                          {
+                            "type" : "slot",
+                            "name" : "description"
+                          }
+                        ]
+                      ],
+                      "guid" : "2630d26199a4e828182c8d07fb7c8855",
+                      "columns" : 1
+                    }
+                  ],
+                  "pageData" : { }
+                }
+              },
+              "component" : "details",
+              "new_record_values" : "[]",
+              "read_only" : "false",
+              "query" : "%{pageVars.q}",
+              "include_actions" : "true",
+              "id" : "e76891d413827b84ab958c0aee37a8ae",
+              "__raw" : {
+                "query" : "%{pageVars.q}"
+              }
             },
-            "w": "100%",
-            "h": "50%"
+            "w" : "100%",
+            "h" : "100%"
           }
         },
-        "name": "tenant_new_request",
-        "owner": "1066af59a57445b3bd5e68678f993f2a",
-        "public": "0",
-        "schema_version": "0",
-        "system_updated": "0"
+        "name" : "tenant_new_request",
+        "owner" : "1066af59a57445b3bd5e68678f993f2a",
+        "public" : "0",
+        "schema_version" : "0",
+        "system_updated" : "0"
       }
     }
   }
