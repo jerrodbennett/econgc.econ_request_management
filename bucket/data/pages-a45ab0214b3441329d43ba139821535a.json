@@ -5,44 +5,36 @@
         "created" : "1494026423590",
         "id" : "a45ab0214b3441329d43ba139821535a",
         "layout" : {
-          "component_2db8a034a09d3a225acd2762f3f6b2b0" : {
-            "type" : "component",
-            "component" : "list",
-            "id" : "component_2db8a034a09d3a225acd2762f3f6b2b0",
-            "name" : "component_2db8a034a09d3a225acd2762f3f6b2b0",
-            "page_loading" : false,
-            "needs_subpage_target" : false,
-            "attributes" : {
-              "bucket" : "jtkw97xr",
-              "force_condition" : "[]",
-              "component" : "list",
-              "allow_sorting" : "true",
-              "inline_details" : false,
-              "columns" : [
-                "number",
-                "state",
-                "tenant",
-                "facility",
-                "service"
-              ],
-              "height_option" : "",
-              "id" : "92b0bf601444481919faaedd6dda2661",
-              "csstags" : "",
-              "list_spacing" : "",
-              "height" : 300,
-              "query" : "%{pageVars.q}"
-            },
-            "w" : "100%",
-            "h" : "100%"
-          },
           "__start__" : {
             "type" : "container",
             "w" : "100%",
             "h" : "100%",
             "contains" : [
-              "component_2db8a034a09d3a225acd2762f3f6b2b0"
+              "component_6f2d7b74591379fa7490ab7bcc3ba0f5"
             ],
             "layout_type" : "page_components"
+          },
+          "component_6f2d7b74591379fa7490ab7bcc3ba0f5" : {
+            "type" : "component",
+            "component" : "card_list",
+            "id" : "component_6f2d7b74591379fa7490ab7bcc3ba0f5",
+            "name" : "component_6f2d7b74591379fa7490ab7bcc3ba0f5",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "bucket" : "jtkw97xr",
+              "component" : "card_list",
+              "condition" : "[]",
+              "title_slot" : "number",
+              "id" : "4b3d415fa0634a1a2989072b4cf94b7f",
+              "description_slot" : "description",
+              "icon_slot" : "created",
+              "title_slot_1" : "facility",
+              "title_slot_2" : "tenant",
+              "title_slot_3" : "service"
+            },
+            "w" : "100%",
+            "h" : "100%"
           }
         },
         "name" : "tenant_view_requests",

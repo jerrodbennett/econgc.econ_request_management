@@ -256,9 +256,14 @@
                   "sortDirection" : "ascending",
                   "hidden" : "[[[\"state\",\"eq\",\"8424352b14a14bd7b8a38ae49a0c40f6\",\"Draft\"]],\"OR\",[[\"state\",\"eq\",\"9fc2c99f916c495d9ca5f18c1a403605\",\"Tenant Rebound\"]],\"OR\",[[\"state\",\"eq\",\"ef2da80e888645fcba833d9d66230a88\",\"PM Approval\"]],\"OR\",[[\"state\",\"eq\",\"b30ee99237a54d01992d06aabf4beda0\",\"Cancelled \"]]]",
                   "many_link_behavior" : "linked_record"
+                },
+                {
+                  "label" : "Approval (parent)",
+                  "value" : "zrpplys6.parent"
                 }
               ],
-              "csstags" : ""
+              "csstags" : "",
+              "parent_query" : "%{pageVars.q}"
             },
             "w" : "33%",
             "h" : "100%"

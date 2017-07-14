@@ -31,8 +31,8 @@
               "expiration_behavior" : "rejected",
               "notification_interval" : 7200,
               "acceptance_behavior" : "all_must_approve",
-              "name" : "Approval",
-              "approvers_specify" : "[{\"id\":\"dfc81723218665592218758b7c40a874\",\"bucket\":\"user\",\"approver\":\"f2934a6cddeb4b1caf2dc50551641de9\"}]",
+              "name" : "Test",
+              "approvers_specify" : "[{\"id\":\"6b07db90920e79b55181efd3a86bd2e7\",\"bucket\":\"user\",\"approver\":\"a94422adc0a643578468ec9b9e4e3fac\"}]",
               "obj_name" : "Test",
               "obj_type" : "approval"
             },
