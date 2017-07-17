@@ -1,0 +1,56 @@
+{
+  "bucket_data" : {
+    "pages" : {
+      "766aed1e6454415aa84cdd375be8730c" : {
+        "created" : "1499708220745",
+        "id" : "766aed1e6454415aa84cdd375be8730c",
+        "layout" : {
+          "component_3e164bb8263469d0954e547ab3cdf3c4" : {
+            "type" : "component",
+            "component" : "list",
+            "id" : "component_3e164bb8263469d0954e547ab3cdf3c4",
+            "name" : "component_3e164bb8263469d0954e547ab3cdf3c4",
+            "page_loading" : false,
+            "needs_subpage_target" : false,
+            "attributes" : {
+              "bucket" : "jtkw97xr",
+              "force_condition" : "[[[\"state\",\"eq\",\"ef2da80e888645fcba833d9d66230a88\",\"PM Approval\"]]]",
+              "component" : "list",
+              "allow_sorting" : "true",
+              "inline_details" : false,
+              "columns" : [
+                "number",
+                "state",
+                "requested_for",
+                "facility",
+                "tenant",
+                "service",
+                "short_description"
+              ],
+              "height_option" : "",
+              "list_spacing" : "",
+              "height" : 300,
+              "id" : "f47d38017d57ab65f3f44164c9e9b505"
+            },
+            "w" : "100%",
+            "h" : "100%"
+          },
+          "__start__" : {
+            "type" : "container",
+            "w" : "100%",
+            "h" : "100%",
+            "contains" : [
+              "component_3e164bb8263469d0954e547ab3cdf3c4"
+            ],
+            "layout_type" : "page_components"
+          }
+        },
+        "name" : "staff_view_approvals",
+        "owner" : "1066af59a57445b3bd5e68678f993f2a",
+        "public" : "0",
+        "schema_version" : "0",
+        "system_updated" : "0"
+      }
+    }
+  }
+}
