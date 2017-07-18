@@ -1,19 +1,19 @@
 {
-  "bucket_data": {
-    "buckets": {
-      "p5c63gd9": {
-        "attributes": {
-          "display": "name"
+  "bucket_data" : {
+    "buckets" : {
+      "p5c63gd9" : {
+        "attributes" : {
+          "display" : "name"
         },
-        "created": "1494026893446",
-        "id": "p5c63gd9",
-        "labels": {
-          "label": "Facility Suite",
-          "labelp": "Facility Suites"
+        "created" : "1494026893446",
+        "id" : "p5c63gd9",
+        "labels" : {
+          "label" : "Facility Suite OLD",
+          "labelp" : "Facility Suites"
         },
-        "name": "econ_suite",
-        "system_updated": "0",
-        "type": "records"
+        "name" : "econ_suite",
+        "system_updated" : "0",
+        "type" : "records"
       }
     }
   }

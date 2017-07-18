@@ -1,19 +1,17 @@
 {
-  "bucket_data": {
-    "buckets": {
-      "6ky21zly": {
-        "attributes": { },
-        "created": "1494273529543",
-        "id": "6ky21zly",
-        "labels": {
-          "label": "Material",
-          "labelp": "Materials"
+  "bucket_data" : {
+    "buckets" : {
+      "6ky21zly" : {
+        "attributes" : { },
+        "created" : "1494273529543",
+        "id" : "6ky21zly",
+        "labels" : {
+          "label" : "Material OLD",
+          "labelp" : "Materials"
         },
-        "name": "econ_request_material",
-        "owner": "1066af59a57445b3bd5e68678f993f2a",
-        "schema_version": "0",
-        "system_updated": "0",
-        "type": "records"
+        "name" : "econ_request_material",
+        "system_updated" : "0",
+        "type" : "records"
       }
     }
   }

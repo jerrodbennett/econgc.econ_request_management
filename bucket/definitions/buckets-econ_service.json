@@ -1,19 +1,19 @@
 {
-  "bucket_data": {
-    "buckets": {
-      "gg8qynq7": {
-        "attributes": {
-          "display": "name"
+  "bucket_data" : {
+    "buckets" : {
+      "gg8qynq7" : {
+        "attributes" : {
+          "display" : "name"
         },
-        "created": "1494025933406",
-        "id": "gg8qynq7",
-        "labels": {
-          "label": "Service",
-          "labelp": "Services"
+        "created" : "1494025933406",
+        "id" : "gg8qynq7",
+        "labels" : {
+          "label" : "Service OLD",
+          "labelp" : "Services"
         },
-        "name": "econ_service",
-        "system_updated": "0",
-        "type": "records"
+        "name" : "econ_service",
+        "system_updated" : "0",
+        "type" : "records"
       }
     }
   }

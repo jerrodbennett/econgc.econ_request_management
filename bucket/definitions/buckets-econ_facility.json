@@ -1,19 +1,19 @@
 {
-  "bucket_data": {
-    "buckets": {
-      "1vm5bwsl": {
-        "attributes": {
-          "display": "name"
+  "bucket_data" : {
+    "buckets" : {
+      "1vm5bwsl" : {
+        "attributes" : {
+          "display" : "name"
         },
-        "created": "1494026741824",
-        "id": "1vm5bwsl",
-        "labels": {
-          "label": "Facility",
-          "labelp": "Facilities"
+        "created" : "1494026741824",
+        "id" : "1vm5bwsl",
+        "labels" : {
+          "label" : "Facility OLD",
+          "labelp" : "Facilities"
         },
-        "name": "econ_facility",
-        "system_updated": "0",
-        "type": "records"
+        "name" : "econ_facility",
+        "system_updated" : "0",
+        "type" : "records"
       }
     }
   }
